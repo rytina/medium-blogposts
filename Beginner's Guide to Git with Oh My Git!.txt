@@ -25,7 +25,7 @@ https://img.itch.zone/aW1hZ2UvODA4ODEwLzUzMjgzMDMucG5n/original/VHUg%2By.png
 
 The primary interface where you will interact with Git commands is designed to simulate a real Git workflow. The game environment provides visual cues to help you understand the impact of your commands. 
 
-Repository: A Git repository (often abbreviated as "repo") is a storage space where your project's files, along with their complete revision history, are kept. Each level provides you with the task to track changes of specific files explained presented in to lower-right file browser.
+Repository: A Git repository (often abbreviated as "repo") is a storage space where your project's files, along with their complete revision history, are kept. Each level provides you with the task to track changes of specific files which are presented in the lower-right file browser.
 
 Timelines: A timeline in Git refers to the chronological sequence of commits that represent the history of a repository. This timeline shows the evolution of the project, detailing what changes were made. Understanding the timeline helps developers track the progress of the project, understand its history, and collaborate more effectively. Timelines are visualized by yellow paths in the upper-left window. The yellow boxes (nodes) are representing individual commits and the arrows between the boxes (edges) are representing the parent-child relation-ship of each commit. Every commit, except the inital one, has a parent. The overall timeline includes the entire history of all changes and is in mathematical terms a directed acyclic graph (https://en.wikipedia.org/wiki/Directed_acyclic_graph).
 
