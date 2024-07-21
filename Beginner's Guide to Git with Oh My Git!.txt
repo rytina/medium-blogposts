@@ -17,6 +17,7 @@ To deepen our understanding of Git and embrace the mindset of collaboration, acc
 Let's get started and take a look at each of the concepts in Oh My Git!
 
 ! Oh My Git! User Interface
+
 Before diving into the Git concepts, let's take a look at the user interface of Oh My Git! Understanding the interface will help you navigate the game more effectively.
 
 https://img.itch.zone/aW1hZ2UvODA4ODEwLzUzMjgzMDMucG5n/original/VHUg%2By.png
@@ -29,20 +30,37 @@ Repository: A Git repository (often abbreviated as "repo") is a storage space wh
 
 Timelines: A timeline in Git refers to the chronological sequence of commits that represent the history of a repository. This timeline shows the evolution of the project, detailing what changes were made. Understanding the timeline helps developers track the progress of the project, understand its history, and collaborate more effectively. Timelines are visualized by yellow paths in the upper-left window. The yellow boxes (nodes) are representing individual commits and the arrows between the boxes (edges) are representing the parent-child relation-ship of each commit. Every commit, except the inital one, has a parent. The overall timeline includes the entire history of all changes and is in mathematical terms a directed acyclic graph (https://en.wikipedia.org/wiki/Directed_acyclic_graph).
 
-Branches and Commits: The visual representation of branches and commits helps you see the state of the repository and the relationships between different branches.
+Branches and Commits: The visual representation of branches and commits helps you see the state of the repository and the relationships between different branches. Below two branches are visualized by the blue markers which are pointing to the most recent commit on a branch, the so called "branch tip". When you hover with the mouse over a commit (yellow box), the commit message is shown in a tool tip.  
 
-Workspace and Staging Area: Changes in your working directory and staging area are visually highlighted, making it easier to grasp the staging and committing process.
+images/branch.png
 
-Merge Conflicts: When merge conflicts occur, the affected files are clearly marked, and you are guided through the resolution process.
+Staging Area: Changes in the staging area are visually highlighted in the file browser window at the lower right corner, making it easier to grasp the staging and committing process. 
+
+Merge Conflicts: When merge conflicts occur, the affected files are clearly marked by a red frame as depicted below:
+
+images/merge_conflict.png
 
 !! Command Line Interface
 
-The command line interface in the game allows you to input Git commands directly. This helps you practice using the Git CLI in a controlled environment. You'll receive real-time feedback on your commands, helping you learn from any mistakes and understand the correct usage of Git commands.
+The command line interface in the game allows you to input Git commands directly. This helps you practice using the Git CLI in a controlled environment. You'll receive real-time feedback on your commands, helping you learn from any mistakes and understand the correct usage of Git commands. It also shows you the possible completions at the cursor position in a tooltip (command completion popup) as shown below:
 
-! Commits
-In Git, a commit is a snapshot of your project at a specific point in time. Every time you make a commit, Git records the state of your project, allowing you to track changes and revert to previous versions if needed. In Oh My Git!, you'll learn how to create commits, write meaningful commit messages, and understand the importance of commits in version control.
+images/cli.png
+
+When you press tab the command in the tooltip is completed as with usual content assists.
+
+! Enter the time machine
+
+Now start the game and select Levels in the main window. This will bring up all levels which are divided into sections starting with the intro section. Let's go directly to the "Enter the time machine" level which will introduce you with your first git commannd ``git init``. As with in most applications you can execute the command with the graphical user interface (gui) or with the command line interface (cli). So either drag the git init card to the empty space to create a new git repository or type the command ``git init`` into the cli.
+
+images/git_init.png
+
+! Your first commit 
+
+In Git, a commit is a snapshot of your project at a specific point in time. Every time you make a commit, Git records the state of your project, allowing you to track changes and revert to previous versions if needed. In the level "Your first commit" there is one file with the name glass. Click on the file to open it, make any change to the text (does not matter which) and then click on Save. Instead of dragging the card into the empty space, I suggest you to enter the commands into the command line. In this you will memoryize the commands and you can better transfer your knowledge to the real world. Let's me briefly explain the command which stands at the top of the card: ``git add .; git commit``
+There are actual two commands which are seperated by the semicolon. The first is ``git add .`` which adds all the files to the git index where the changes are prepared for committing. You can also add individual files by mention them instead the '.' wildcard. The second command ``git commit`` takes all the files which have been added to the index and creates a commit with their state. 
 
 ! Branches
+
 Branches allow you to diverge from the main line of development to work on new features or fixes independently. This way, your main project remains stable while you experiment and develop. In Oh My Git!, you'll practice creating, switching, and merging branches, and understand how branches facilitate collaboration and parallel development.
 
 ! Merging
