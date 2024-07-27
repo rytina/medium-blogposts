@@ -14,7 +14,7 @@ From its humble origins, Git quickly gained traction and became the go-to choice
 
 To deepen our understanding of Git and embrace the mindset of collaboration, accountability, and continuous improvement, let's embark on this journey together. As teased above, we start this journey with an engaging and interactive tool to help us learn. Visit the Oh My Git! website at https://ohmygit.org/ and follow the instructions to play the game. Oh My Git! was developed by the two German artists, programmers, and game designers Sabine Wieluch (aka bleeptrack) and blinry. They aim to make learning Git commands fun and accessible. The game not only provides a playful learning experience but also helps in understanding the practical applications of Git in real-world scenarios. As you progress through the game, you will get an understanding of Git concepts like commits, branches, index, remotes, merging, tags, and publishing changes.
 
-Let's get started and take a look at each of the concepts in Oh My Git!
+Let's get started and take a look at each of these concepts in Oh My Git!
 
 ! Oh My Git! User Interface
 
@@ -30,19 +30,19 @@ Repository: A Git repository (often abbreviated as "repo") is a storage space wh
 
 Timelines: A timeline in Git refers to the chronological sequence of commits that represent the history of a repository. This timeline shows the evolution of the project, detailing what changes were made. Understanding the timeline helps developers track the progress of the project, understand its history, and collaborate more effectively. Timelines are visualized by yellow paths in the upper-left window. The yellow boxes (nodes) are representing individual commits and the arrows between the boxes (edges) are representing the parent-child relation-ship of each commit. Every commit, except the inital one, has a parent. The overall timeline includes the entire history of all changes and is in mathematical terms a directed acyclic graph (https://en.wikipedia.org/wiki/Directed_acyclic_graph).
 
-Branches and Commits: The visual representation of branches and commits helps you see the state of the repository and the relationships between different branches. Below two branches are visualized by the blue markers which are pointing to the most recent commit on a branch, the so called "branch tip". When you hover with the mouse over a commit (yellow box), the commit message is shown in a tool tip.  
+Branches and Commits: Branches allow you to diverge from the main line of development to work on new features or fixes independently. This way, your main project remains stable while you experiment and develop. In Git, a commit is a snapshot of your project at a specific point in time. The visual representation of branches and commits helps you see the state of the repository and the relationships between different branches. Below two branches are visualized by the blue markers which are pointing to the most recent commit on a branch, the so called "branch tip". When you hover with the mouse over a commit (yellow box), the commit message is shown in a tool tip.  
 
 images/branch.png
 
-Staging Area: Changes in the staging area are visually highlighted in the file browser window at the lower right corner, making it easier to grasp the staging and committing process. 
+Staging Area: In Git, the staging area is a space where you can prepare changes before you commit them to your project’s history. Think of it as a draft area where you can review and organize your changes. When you add a file to the staging area, you're telling Git that this change is ready to be included in the next commit. Once you're happy with the staged changes, you commit them, which makes them part of your project's history. In the game changes in the staging area are visually highlighted in the file browser window at the lower right corner, making it easier to grasp the staging and committing process. 
 
-Merge Conflicts: When merge conflicts occur, the affected files are clearly marked by a red frame as depicted below:
+Merge and conflicts: A Git merge is a fundamental operation in Git, When you perform a merge, you combine changes from different branches of a repository into a single branch. This process allows you to integrate the work done by different developers or in different branches into one cohesive project. Merge conflicts occur when Git cannot automatically reconcile the differences between branches. This usually happens when the same part of a file has been modified in different ways in the branches being merged. When merge conflicts occur, the affected files are clearly marked by a red frame as depicted below:
 
 images/merge_conflict.png
 
 !! Command Line Interface
 
-The command line interface in the game allows you to input Git commands directly. This helps you practice using the Git CLI in a controlled environment. You'll receive real-time feedback on your commands, helping you learn from any mistakes and understand the correct usage of Git commands. It also shows you the possible completions at the cursor position in a tooltip (command completion popup) as shown below:
+The command line interface (CLI) in Oh My Git! is crucial because it mirrors the real-world environment developers use for Git. By learning Git commands through the game's CLI, you build muscle memory and familiarity with the syntax and workflow you'll need in actual projects. This hands-on practice helps reinforce the concepts and commands, making it easier to transition from the game to real-life Git usage. You'll receive real-time feedback on your commands, helping you learn from any mistakes and understand the correct usage of Git commands. It also shows you the possible completions at the cursor position in a tooltip (command completion popup) as shown below:
 
 images/cli.png
 
@@ -56,15 +56,16 @@ images/git_init.png
 
 ! Your first commit 
 
-In Git, a commit is a snapshot of your project at a specific point in time. Every time you make a commit, Git records the state of your project, allowing you to track changes and revert to previous versions if needed. In the level "Your first commit" there is one file with the name glass. Click on the file to open it, make any change to the text (does not matter which) and then click on Save. Instead of dragging the card into the empty space, I suggest you to enter the commands into the command line. In this you will memoryize the commands and you can better transfer your knowledge to the real world. Let's me briefly explain the command which stands at the top of the card: ``git add .; git commit``
+Every time you make a commit, Git records the state of your project, allowing you to track changes and revert to previous versions if needed. In the level "Your first commit" there is one file with the name glass. Click on the file to open it, make any change to the text (does not matter which) and then click on Save. Instead of dragging the card into the empty space, I suggest you to enter the commands into the command line. In this you will memoryize the commands and you can better transfer your knowledge to the real world. Let me briefly explain the command which stands at the top of the card: ``git add .; git commit``
 There are actual two commands which are seperated by the semicolon. The first is ``git add .`` which adds all the files to the git index where the changes are prepared for committing. You can also add individual files by mention them instead the '.' wildcard. The second command ``git commit`` takes all the files which have been added to the index and creates a commit with their state. 
 
 ! Branches
 
-Branches allow you to diverge from the main line of development to work on new features or fixes independently. This way, your main project remains stable while you experiment and develop. In Oh My Git!, you'll practice creating, switching, and merging branches, and understand how branches facilitate collaboration and parallel development.
+In the level "Creating branches," you have two objectives. The first is to create a branch called 'birthday' that points to the birthday timeline. Creating a branch is as simple as typing the command `git branch birthday` into the CLI. The second part, making this newly created branch point to the birthday timeline, is a bit trickier. However, the card on the right provides the solution. By using the command `git reset --hard`, you can move the branch you're on to any commit. A Git commit is identified by a unique SHA-1 hash, a 40-character string like `e1ad1a66a2a3f5dc1b5c23f30d2e5d8cd8a34d7f`. When you type in the command `git reset --hard` and then right-click on the last commit of the birthday timeline, the hash will be inserted. Pressing enter completes the task.
 
 ! Merging
-Merging is the process of combining changes from different branches. It's an essential part of collaborative workflows in Git. In the game, you'll practice merging branches, resolving merge conflicts, and understand the different merge strategies Git offers.
+
+As mentioned previouisly merging is the process of combining changes from different branches. It's an essential part of collaborative workflows in Git. In the game, you'll practice merging branches, resolving merge conflicts, and understand the different merge strategies Git offers.
 
 ! Index
 
