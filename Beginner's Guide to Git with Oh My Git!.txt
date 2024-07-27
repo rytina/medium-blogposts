@@ -61,11 +61,19 @@ There are actual two commands which are seperated by the semicolon. The first is
 
 ! Branches
 
-In the level "Creating branches," you have two objectives. The first is to create a branch called 'birthday' that points to the birthday timeline. Creating a branch is as simple as typing the command `git branch birthday` into the CLI. The second part, making this newly created branch point to the birthday timeline, is a bit trickier. However, the card on the right provides the solution. By using the command `git reset --hard`, you can move the branch you're on to any commit. A Git commit is identified by a unique SHA-1 hash, a 40-character string like `e1ad1a66a2a3f5dc1b5c23f30d2e5d8cd8a34d7f`. When you type in the command `git reset --hard` and then right-click on the last commit of the birthday timeline, the hash will be inserted. Pressing enter completes the task.
+In the level "Creating branches," you have two objectives. The first is to create a branch called 'birthday' that points to the birthday timeline. First we need to go to the last commit of the birthday timeline. The right most card provides you with the solution. By using the command `git reset --hard`, you can move to any commit. A Git commit is identified by a unique SHA-1 hash, a 40-character string like `e1ad1a66a2a3f5dc1b5c23f30d2e5d8cd8a34d7f`. When you type in the command `git reset --hard` and then right-click on the last commit of the birthday timeline, the hash will be inserted. Creating a branch is as simple as typing the command `git branch birthday` into the CLI. Pressing enter completes the first task. To complete the second objective in that level repeat these commands with the concert timeline.
+
+!! Can't see the forest for the trees
+
+You've now experienced how easy it is to create branches with Git. However, creating too many branches can quickly become messy, making it hard to find your important work in the jungle of branches. So, you should regularly weed out unnecessary branches ;-)
+
+The command for getting rid of branches is `git branch -D`. You can practice how to better control the clutter with the "Deleting branches" level.
+
 
 ! Merging
 
-As mentioned previouisly merging is the process of combining changes from different branches. It's an essential part of collaborative workflows in Git. In the game, you'll practice merging branches, resolving merge conflicts, and understand the different merge strategies Git offers.
+As previously mentioned, merging is like the magical art of combining changes from different branches. It's a crucial part of Git's collaborative wizardry. In the "Merging Timelines" level, you'll embark on a journey through parallel universes, giving your "main" self some extra snooze time. The mission? To merge all your breakfasts from these alternate realities into one big breakfast. You'll kick off with the universe where you enjoy a donut for breakfast. Start by merging this one with the `git merge` command, then right-click on one of the latest commits from the other timelines. Repeat with the remaining timeline to complete the level. Happy merging, time traveler!
+
 
 ! Index
 
