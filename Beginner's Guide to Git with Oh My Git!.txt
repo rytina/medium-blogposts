@@ -74,6 +74,19 @@ The command for getting rid of branches is `git branch -D`. You can practice how
 
 As previously mentioned, merging is like the magical art of combining changes from different branches. It's a crucial part of Git's collaborative wizardry. In the "Merging Timelines" level, you'll embark on a journey through parallel universes, giving your "main" self some extra snooze time. The mission? To merge all your breakfasts from these alternate realities into one big breakfast. You'll kick off with the universe where you enjoy a donut for breakfast. Start by merging this one with the `git merge` command, then right-click on one of the latest commits from the other timelines. Repeat with the remaining timeline to complete the level. Happy merging, time traveler!
 
+But sometimes conflicts arise, much like in real life when trying to bring contradicting paths together. These have to be resolved carefully. Let's try this with the level "Contradictions." You are starting from the main branch, and the objective is to merge it with the other two branches one by one. Type in the command `git merge`, then right-click on one of the other branches. Now repeat it again, and you will see that the file 'sam' in the index is outlined with a red border, which indicates a conflict. To resolve the conflict, open the file by left-clicking on it. The content will look similar to the following:
+
+```
+<<<<<<< HEAD
+Had muesli with oats and strawberries for breakfast.
+=======
+Had blueberry pancakes with maple syrup for breakfast.
+>>>>>>> refs/heads/pancakes
+
+Is at work.
+```
+
+Git has marked the conflicting text regions with "<<<<<<< HEAD", "=======", and ">>>>>>> refs/heads/pancakes". The region between HEAD and ======= is the first line from the current branch. The other region until ">>>>>>> refs/heads/pancakes" is the first line from the pancakes branch. You can delete all three markers and save the file. Now you can commit your change with `git add .; git commit`, and voila, you have resolved your first conflict.
 
 ! Index
 
