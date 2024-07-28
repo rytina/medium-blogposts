@@ -1,78 +1,80 @@
 **Beginner's Guide to Git with Oh My Git!**
 
-Since I switched my profession from developing rich-client applications on PCs to providing and maintaining IT services in the cloud, I aspire to become more proficient with the Git command line interface. This provides me with the opportunity to "relearn" Git, as I previously used code editors like Eclipse or VS Code, where Git operations are executed with the mouse and vary from tool to tool. In contrast, the Git command line interface is consistent across environments.
+Since switching my profession from developing rich-client applications on PCs to providing and maintaining IT services in the cloud, I aspire to become more proficient with the Git command line interface. This offers me the opportunity to "relearn" Git, as I previously used code editors like Eclipse or VS Code, where Git operations are executed with the mouse and vary from tool to tool. In contrast, the Git command line interface is consistent across environments.
 
-While Git is predominantly used in software development, it is also gaining traction among non-developers, such as technical writers, project managers, data scientists, and QA testers. Thanks to mainstream developer collaboration platforms like GitLab, GitHub, and Bitbucket, Git has revolutionized how teams collaborate, track changes, and manage projects. 
+While Git is predominantly used in software development, it is also gaining traction among non-developers, such as technical writers, project managers, data scientists, and QA testers. Thanks to mainstream developer collaboration platforms like GitLab, GitHub, and Bitbucket, Git has revolutionized how teams collaborate, track changes, and manage projects.
 
-By mastering Git and becoming more fluent with its command line interface, I aim to join this transformative shift from older, centralized version control systems (like Subversion) to the more modern, distributed version control systems. Unlike centralized systems, where a single server holds the complete version history and all changes must be committed through it, distributed systems like Git allow every user to have a full copy of the repository history on their own machine. This approach enhances collaboration by enabling offline work, reducing single points of failure, and providing more robust branching and merging capabilities. Embracing this shift allows for greater flexibility, improved team collaboration, and more efficient project management. 
+By mastering Git and becoming more fluent with its command line interface, I aim to join this transformative shift from older, centralized version control systems (like Subversion) to more modern, distributed version control systems. Unlike centralized systems, where a single server holds the complete version history and all changes must be committed through it, distributed systems like Git allow every user to have a full copy of the repository history on their own machine. This approach enhances collaboration by enabling offline work, reducing single points of failure, and providing more robust branching and merging capabilities. Embracing this shift allows for greater flexibility, improved team collaboration, and more efficient project management.
 
-In the following I want to promote learning and understanding of Git's core concepts with Oh My Git! This beautiful little game simulates real-life Git operations in a virtual environment, making it easier for beginners to grasp essential Git commands and concepts without needing to install Git on their local machines. But before jumping directly into the game I want to mention a little bit about Git's history.
+In the following, I want to promote learning and understanding of Git's core concepts with Oh My Git! This beautiful little game simulates real-life Git operations in a virtual environment, making it easier for beginners to grasp essential Git commands and concepts without needing to install Git on their local machines. But before jumping directly into the game, I want to mention a little bit about Git's history.
 
-The story of Git begins with Linus Torvalds, the creator of the Linux kernel (https://en.wikipedia.org/wiki/Git). Faced with the need for a robust version control system to manage the development of Linux, Torvalds set out to create a tool that would address the limitations of existing systems. In 2005, Git was born, designed with a distributed architecture that offered unparalleled speed, flexibility, and data integrity.
+The story of Git begins with Linus Torvalds, the creator of the Linux kernel. Faced with the need for a robust version control system to manage the development of Linux, Torvalds set out to create a tool that would address the limitations of existing systems. In 2005, Git was born, designed with a distributed architecture that offered unparalleled speed, flexibility, and data integrity.
 
 From its humble origins, Git quickly gained traction and became the go-to choice for countless open-source projects and enterprises. Its ability to handle large-scale projects with ease, its lightning-fast branching and merging capabilities, and its emphasis on data integrity set it apart as a game-changer in the world of version control.
 
-To deepen our understanding of Git and embrace the mindset of collaboration, accountability, and continuous improvement, let's embark on this journey together. As teased above, we start this journey with an engaging and interactive tool to help us learn. Visit the Oh My Git! website at https://ohmygit.org/ and follow the instructions to play the game. Oh My Git! was developed by the two German artists, programmers, and game designers Sabine Wieluch (aka bleeptrack) and blinry. They aim to make learning Git commands fun and accessible. The game not only provides a playful learning experience but also helps in understanding the practical applications of Git in real-world scenarios. As you progress through the game, you will get an understanding of Git concepts like commits, branches, index, remotes, merging, tags, and publishing changes.
+To deepen our understanding of Git and embrace the mindset of collaboration, accountability, and continuous improvement, let's embark on this journey together. As teased above, we start this journey with an engaging and interactive tool to help us learn. Visit the Oh My Git! website at https://ohmygit.org/ and follow the instructions to play the game. Oh My Git! was developed by the two German artists, programmers, and game designers Sabine Wieluch (aka bleeptrack) and blinry. They aim to make learning Git commands fun and accessible. The game not only provides a playful learning experience but also helps in understanding the practical applications of Git in real-world scenarios. As you progress through the game, you will understand Git concepts like commits, branches, index, remotes, merging, tags, and publishing changes.
 
 Let's get started and take a look at each of these concepts in Oh My Git!
 
-! Oh My Git! User Interface
+### Oh My Git! User Interface
 
 Before diving into the Git concepts, let's take a look at the user interface of Oh My Git! Understanding the interface will help you navigate the game more effectively.
 
 https://img.itch.zone/aW1hZ2UvODA4ODEwLzUzMjgzMDMucG5n/original/VHUg%2By.png
 
-!! Game Environment:
+#### Game Environment
 
-The primary interface where you will interact with Git commands is designed to simulate a real Git workflow. The game environment provides visual cues to help you understand the impact of your commands. 
+The primary interface where you will interact with Git commands is designed to simulate a real Git workflow. The game environment provides visual cues to help you understand the impact of your commands.
 
-Your Avatar: The blue animal in the above sreenshot is your game character and it represents a concept in Git known as the "HEAD pointer". It shows you at which commit you are currently standing on (aka the current commit).
+- **Your Avatar:** The blue animal in the screenshot represents a concept in Git known as the "HEAD pointer." It shows you at which commit you are currently standing (aka the current commit).
+- **Repository:** A Git repository (often abbreviated as "repo") is a storage space where your project's files, along with their complete revision history, are kept. Each level provides you with the task to track changes of specific files, which are presented in the lower-right file browser.
+- **Timelines:** A timeline in Git refers to the chronological sequence of commits that represent the history of a repository. This timeline shows the evolution of the project, detailing what changes were made. Understanding the timeline helps developers track the progress of the project, understand its history, and collaborate more effectively. Timelines are visualized by yellow paths in the upper-left window. The yellow boxes (nodes) represent individual commits, and the arrows between the boxes (edges) represent the parent-child relationship of each commit. Every commit, except the initial one, has a parent. The overall timeline includes the entire history of all changes and is, in mathematical terms, a directed acyclic graph.
 
-Repository: A Git repository (often abbreviated as "repo") is a storage space where your project's files, along with their complete revision history, are kept. Each level provides you with the task to track changes of specific files which are presented in the lower-right file browser.
+#### Branches and Commits
 
-Timelines: A timeline in Git refers to the chronological sequence of commits that represent the history of a repository. This timeline shows the evolution of the project, detailing what changes were made. Understanding the timeline helps developers track the progress of the project, understand its history, and collaborate more effectively. Timelines are visualized by yellow paths in the upper-left window. The yellow boxes (nodes) are representing individual commits and the arrows between the boxes (edges) are representing the parent-child relation-ship of each commit. Every commit, except the inital one, has a parent. The overall timeline includes the entire history of all changes and is in mathematical terms a directed acyclic graph (https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+Branches allow you to diverge from the main line of development to work on new features or fixes independently. This way, your main project remains stable while you experiment and develop. In Git, a commit is a snapshot of your project at a specific point in time. The visual representation of branches and commits helps you see the state of the repository and the relationships between different branches.
 
-Branches and Commits: Branches allow you to diverge from the main line of development to work on new features or fixes independently. This way, your main project remains stable while you experiment and develop. In Git, a commit is a snapshot of your project at a specific point in time. The visual representation of branches and commits helps you see the state of the repository and the relationships between different branches. Below two branches are visualized by the blue markers which are pointing to the most recent commit on a branch, the so called "branch tip". When you hover with the mouse over a commit (yellow box), the commit message is shown in a tool tip.  
+#### Staging Area
+
+In Git, the staging area is a space where you can prepare changes before you commit them to your project’s history. Think of it as a draft area where you can review and organize your changes. When you add a file to the staging area, you're telling Git that this change is ready to be included in the next commit. Once you're happy with the staged changes, you commit them, which makes them part of your project's history. In the game, changes in the staging area are visually highlighted in the file browser window at the lower right corner, making it easier to grasp the staging and committing process.
 
 images/branch.png
 
-Staging Area: In Git, the staging area is a space where you can prepare changes before you commit them to your project’s history. Think of it as a draft area where you can review and organize your changes. When you add a file to the staging area, you're telling Git that this change is ready to be included in the next commit. Once you're happy with the staged changes, you commit them, which makes them part of your project's history. In the game changes in the staging area are visually highlighted in the file browser window at the lower right corner, making it easier to grasp the staging and committing process. 
+#### Merge and Conflicts
 
-Merge and conflicts: A Git merge is a fundamental operation in Git, When you perform a merge, you combine changes from different branches of a repository into a single branch. This process allows you to integrate the work done by different developers or in different branches into one cohesive project. Merge conflicts occur when Git cannot automatically reconcile the differences between branches. This usually happens when the same part of a file has been modified in different ways in the branches being merged. When merge conflicts occur, the affected files are clearly marked by a red frame as depicted below:
+A Git merge is a fundamental operation in Git. When you perform a merge, you combine changes from different branches of a repository into a single branch. This process allows you to integrate the work done by different developers or in different branches into one cohesive project. Merge conflicts occur when Git cannot automatically reconcile the differences between branches. This usually happens when the same part of a file has been modified in different ways in the branches being merged. When merge conflicts occur, the affected files are clearly marked by a red frame.
+
+#### Command Line Interface
 
 images/merge_conflict.png
 
-!! Command Line Interface
-
-The command line interface (CLI) in Oh My Git! is crucial because it mirrors the real-world environment developers use for Git. By learning Git commands through the game's CLI, you build muscle memory and familiarity with the syntax and workflow you'll need in actual projects. This hands-on practice helps reinforce the concepts and commands, making it easier to transition from the game to real-life Git usage. You'll receive real-time feedback on your commands, helping you learn from any mistakes and understand the correct usage of Git commands. It also shows you the possible completions at the cursor position in a tooltip (command completion popup) as shown below:
+The command line interface (CLI) in Oh My Git! is crucial because it mirrors the real-world environment developers use for Git. By learning Git commands through the game's CLI, you build muscle memory and familiarity with the syntax and workflow you'll need in actual projects. This hands-on practice helps reinforce the concepts and commands, making it easier to transition from the game to real-life Git usage. You'll receive real-time feedback on your commands, helping you learn from any mistakes and understand the correct usage of Git commands. It also shows you the possible completions at the cursor position in a tooltip (command completion popup).
 
 images/cli.png
 
-When you press tab the command in the tooltip is completed as with usual content assists.
+### Enter the Time Machine
 
-! Enter the time machine
-
-Now start the game and select Levels in the main window. This will bring up all levels which are divided into sections starting with the intro section. Let's go directly to the "Enter the time machine" level which will introduce you with your first git commannd ``git init``. As with in most applications you can execute the command with the graphical user interface (gui) or with the command line interface (cli). So either drag the git init card to the empty space to create a new git repository or type the command ``git init`` into the cli.
+Now start the game and select Levels in the main window. This will bring up all levels, which are divided into sections starting with the intro section. Let's go directly to the "Enter the Time Machine" level, which will introduce you to your first git command `git init`. As in most applications, you can execute the command with the graphical user interface (GUI) or with the command line interface (CLI). So either drag the git init card to the empty space to create a new git repository or type the command `git init` into the CLI.
 
 images/git_init.png
 
-! Your first commit 
+### Your First Commit
 
-Every time you make a commit, Git records the state of your project, allowing you to track changes and revert to previous versions if needed. In the level "Your first commit" there is one file with the name glass. Click on the file to open it, make any change to the text (does not matter which) and then click on Save. Instead of dragging the card into the empty space, I suggest you to enter the commands into the command line. In this you will memoryize the commands and you can better transfer your knowledge to the real world. Let me briefly explain the command which stands at the top of the card: ``git add .; git commit``
-There are actual two commands which are seperated by the semicolon. The first is ``git add .`` which adds all the files to the git index where the changes are prepared for committing. You can also add individual files by mention them instead the '.' wildcard. The second command ``git commit`` takes all the files which have been added to the index and creates a commit with their state. 
+Every time you make a commit, Git records the state of your project, allowing you to track changes and revert to previous versions if needed. In the level "Your First Commit," there is one file named "glass." Click on the file to open it, make any change to the text (it does not matter which), and then click on Save. Instead of dragging the card into the empty space, I suggest entering the commands into the command line. This will help you memorize the commands, making it easier to transfer your knowledge to the real world. Let me briefly explain the command on the top of the card: `git add .; git commit`. There are actually two commands separated by a semicolon. The first is `git add .`, which adds all the files to the git index where the changes are prepared for committing. You can also add individual files by specifying them instead of using the '.' wildcard. The second command `git commit` takes all the files that have been added to the index and creates a commit with their state.
 
-! Branches
+### Branches
 
-In the level "Creating branches," you have two objectives. The first is to create a branch called 'birthday' that points to the birthday timeline. First we need to go to the last commit of the birthday timeline. The right most card provides you with the solution. By using the command `git reset --hard`, you can move to any commit. A Git commit is identified by a unique SHA-1 hash, a 40-character string like `e1ad1a66a2a3f5dc1b5c23f30d2e5d8cd8a34d7f`. When you type in the command `git reset --hard` and then right-click on the last commit of the birthday timeline, the hash will be inserted. Creating a branch is as simple as typing the command `git branch birthday` into the CLI. Pressing enter completes the first task. To complete the second objective in that level repeat these commands with the concert timeline.
+In the level "Creating Branches," you have two objectives. The first is to create a branch called 'birthday' that points to the birthday timeline. First, we need to go to the last commit of the birthday timeline. The rightmost card provides you with the solution. By using the command `git reset --hard`, you can move to any commit. A Git commit is identified by a unique SHA-1 hash, a 40-character string like `e1ad1a66a2a3f5dc1b5c23f30d2e5d8cd8a34d7f`. When you type in the command `git reset --hard` and then right-click on the last commit of the birthday timeline, the hash will be inserted. Creating a branch is as simple as typing the command `git branch birthday` into the CLI. Pressing enter completes the first task. To complete the second objective in that level, repeat these commands with the concert timeline.
 
-!! Can't see the forest for the trees
+### Can't See the Forest for the Trees
 
-You've now experienced how easy it is to create branches with Git. However, creating too many branches can quickly become messy, making it hard to find your important work in the jungle of branches. So, you should regularly weed out unnecessary branches ;-)
-
-The command for getting rid of branches is `git branch -D`. You can practice how to better control the clutter with the "Deleting branches" level.
+You've now experienced how easy it is to create branches with Git. However, creating too many branches can quickly become messy, making it hard to find your important work in the jungle of branches. So, you should regularly weed out unnecessary branches.
 
 
-! Merging
+
+The command for deleting branches is `git branch -D`. You can practice how to better control the clutter with the "Deleting Branches" level.
+
+### Merging
 
 As previously mentioned, merging is like the magical art of combining changes from different branches. It's a crucial part of Git's collaborative wizardry. In the "Merging Timelines" level, you'll embark on a journey through parallel universes, giving your "main" self some extra snooze time. The mission? To merge all your breakfasts from these alternate realities into one big breakfast. You'll kick off with the universe where you enjoy a donut for breakfast. Start by merging this one with the `git merge` command, then right-click on one of the latest commits from the other timelines. Repeat with the remaining timeline to complete the level. Happy merging, time traveler!
 
@@ -90,45 +92,40 @@ Is at work.
 
 Git has marked the conflicting text regions with "<<<<<<< HEAD", "=======", and ">>>>>>> refs/heads/pancakes". The region between HEAD and ======= is the first line from the current branch. The other region until ">>>>>>> refs/heads/pancakes" is the first line from the pancakes branch. You can delete all three markers and save the file. Now you can commit your change with `git add .; git commit`, and voila, you have resolved your first conflict.
 
-! Index
+### Index
 
 The Git index, or staging area, is a space where you can prepare changes before committing them. It allows you to build up a set of changes to commit in a single operation. In the game, you'll learn how to add changes to the index, review staged changes, and understand the role of the index in the commit process.
 
-In the level "Resetting files in the index" there are two files which where mistakenly added to the index. With the reset command these files can be again removed from the index, so that only the intented file will be commited. In the previous chapters we added always all files with ``git add .`` to the index. But often only a sub-set of the modified files shall be commited which will be demonstrated in the level "Adding changes step by step". 
+In the level "Resetting Files in the Index," there are two files that were mistakenly added to the index. With the reset command, these files can be removed from the index so that only the intended file will be committed. In the previous chapters, we added all files with `git add .` to the index. But often, only a subset of the modified files should be committed, which will be demonstrated in the level "Adding Changes Step by Step."
 
-! Shit-happens (Handling Mistakes)
+### Shit Happens (Handling Mistakes)
 
 Everyone makes mistakes, and Git provides powerful tools to recover from them. In this chapter, you'll learn about commands like git revert, git reset, and git reflog to undo changes, reset your project to a previous state, and recover lost commits. Oh My Git! will guide you through these scenarios to build your confidence in handling mistakes.
 
-In the "Undo a bad commit" level the objective is to go back to the pervious commit and correct the last number within the numbers file. You can do this with the help of the 'git reset' command, press space and then right click on the previous command. Open the file numbers by left-clicking, do the correction and save the file. To complete the level add the file to the index and commit it.
+In the "Undo a Bad Commit" level, the objective is to go back to the previous commit and correct the last number within the numbers file. You can do this with the help of the 'git reset' command, press space and then right-click on the previous command. Open the file numbers by left-clicking, do the correction and save the file. To complete the level, add the file to the index and commit it.
 
-In the next level "I pushed something broken" the 'git revert' command is introduced. As opposed to 'git reset' which allows you to make corrections of changes that haven't been pushed to the remote and made publicly available, the 'git revert' command allows you to make a new commit which undos the changes which have been done in the specified commit. 
-The level is horizontally splitted into two areas. At the top you see the your teams remote branch and below is your branch. Type in 'git revert' space and then click on the previoius commit (The one with the commit message "very bad"). To complete the level publish the revert commit with the command 'git push'.
+In the next level, "I Pushed Something Broken," the 'git revert' command is introduced. As opposed to 'git reset,' which allows you to make corrections of changes that haven't been pushed to the remote and made publicly available, the 'git revert' command allows you to make a new commit that undoes the changes that have been done in the specified commit. The level is horizontally split into two areas. At the top, you see your team's remote branch, and below is your branch. Type in 'git revert,' press space, and then click on the previous commit (the one with the commit message "very bad"). To complete the level, publish the revert commit with the command 'git push.'
 
-
-! Remotes
+### Remotes
 
 Remote repositories are versions of your project hosted on the internet or an intranet. They enable collaboration by allowing multiple people to work on the same project. In Oh My Git!, you'll learn how to add remote repositories, fetch changes from remotes, and push your local commits to remote repositories.
 
-As with the previoius level the "Friend" level is also horizontally splitted into two areas. At the top you see the timeline from your firend and below is your timeline. Your firend's timeline is on commit of your time line. The get his changes type in the command `git pull'. Now add a third line to the essay, add it to the index and commit it and publish it to your friend with the command `git push`. Your're firend has added another line to the essay. To get it, type again `git pull`. To complete the level add a 5th line to the essay, commit it and push it to the remote.
+As with the previous level, the "Friend" level is also horizontally split into two areas. At the top, you see the timeline from your friend, and below is your timeline. Your friend’s timeline is on a commit ahead of your timeline. To get his changes, type in the command `git pull`. Now add a third line to the essay, add it to the index, commit it, and publish it to your friend with the command `git push`. Your friend has added another line to the essay. To get it, type again `git pull`. To complete the level, add a fifth line to the essay, commit it, and push it to the remote.
 
-! It's all about giving and helping others
+### It's All About Giving and Helping Others
 
-When you dive into the world of Git the ultimate goal is to give something back to the community. And this is done through Git workflows and creating pull requests. This is demonstrated in the level "Cloning a repo". In this level your friend has a problem and you help him by cloning his repo, fix his problem and create a pull request for it. But what the heck is a pull request? A Pull Request (PR) is a way to tell others about changes you’ve pushed to a branch in a repository on GitHub. It is essentially a request to merge your changes from your branch into another branch (usually the main branch). 
+When you dive into the world of Git, the ultimate goal is to give something back to the community. This is done through Git workflows and creating pull requests. This is demonstrated in the level "Cloning a Repo." In this level, your friend has a problem, and you help him by cloning his repo, fixing his problem, and creating a pull request for it. But what the heck is a pull request? A Pull Request (PR) is a way to tell others about changes you’ve pushed to a branch in a repository on GitHub. It is essentially a request to merge your changes from your branch into another branch (usually the main branch).
 
-First you need to clone the repo of your firend. You can do this by dragging the lef-most card (git clone) and dropping it onto "friend". This will execute the command 'git clone ../friend .' Now open the file, complete the equation and save it. Add the file to the index and create a branch with 'git branch solution' (Instead of solution you can give it another name). Now commit your solution and make a pull request by typing the command 'git tag pr'.
+First, you need to clone the repo of your friend. You can do this by dragging the leftmost card (git clone) and dropping it onto "friend." This will execute the command 'git clone ../friend .'. Now open the file, complete the equation and save it. Add the file to the index and create a branch with 'git branch solution' (instead of solution, you can give it another name). Now commit your solution and make a pull request by typing the command 'git tag pr'.
 
-! Tags
+### Tags
 
-Tags are used to mark specific points in your project's history as important. They are typically used for releases or significant milestones. In Oh My Git!, you'll practice creating and using tags to manage and reference specific versions of your project. In the previous level we already created a tag with the name "pr". In the level "Creating tags" you can repeat this again. The next level demonstrates how you can remove them again with the command `git tag -d <tag-name>`. The "Remote Tags" level teaches you how to publish tags to remotes. This can be done with the command `git push <remote> <tag-name>`.
-
+Tags are used to mark specific points in your project's history as important. They are typically used for releases or significant milestones. In Oh My Git!, you'll practice creating and using tags to manage and reference specific versions of your project. In the previous level, we already created a tag with the name "pr". In the level "Creating Tags," you can repeat this again. The next level demonstrates how you can remove them again with the command `git tag -d <tag-name>`. The "Remote Tags" level teaches you how to publish tags to remotes. This can be done with the command `git push <remote> <tag-name>`.
 
 By integrating the Oh My Git! learning game into your Git journey, you can gain practical experience and confidence in using Git commands, setting the stage for effective collaboration, version control, and project management. Whether you're a developer, a project manager, or a curious learner, the game offers a playful and engaging way to dive into the world of Git and embrace the power of collaboration and iteration.
 
-By embracing the journey into the world of Git, we equip ourselves with the ability to contribute to projects, manage changes effectively, and seamlessly collaborate with a global community of like-minded individuals. As we delve into branching, pulling, merging, rebasing and publishing changes via Pull-requests we're not just navigating commands; we're charting a course for the evolution of our projects. Every merge represents a convergence of ideas, every cherry-picked commit a deliberate choice, and every rebase an opportunity to refine and streamline our work.
+By embracing the journey into the world of Git, we equip ourselves with the ability to contribute to projects, manage changes effectively, and seamlessly collaborate with a global community of like-minded individuals. As we delve into branching, pulling, merging, rebasing, and publishing changes via pull requests, we're not just navigating commands; we're charting a course for the evolution of our projects. Every merge represents a convergence of ideas, every cherry-picked commit a deliberate choice, and every rebase an opportunity to refine and streamline our work.
 
 In conclusion, Git is more than just a version control system; it's a testament to the power of collaboration, the beauty of iteration, and the resilience of shared visions. As we embrace the journey into the world of Git, let every commit tell a story, every branch a new beginning, and every merge a celebration of collective achievement.
 
 So, take the plunge into the world of Git with Oh My Git!, and let every simulated command be a step towards mastering version control, contributing to projects, and celebrating the collective achievements of the development community. Happy learning!
-
-
