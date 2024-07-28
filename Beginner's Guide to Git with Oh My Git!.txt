@@ -26,6 +26,8 @@ https://img.itch.zone/aW1hZ2UvODA4ODEwLzUzMjgzMDMucG5n/original/VHUg%2By.png
 
 The primary interface where you will interact with Git commands is designed to simulate a real Git workflow. The game environment provides visual cues to help you understand the impact of your commands. 
 
+Your Avatar: The blue animal in the above sreenshot is your game character and it represents a concept in Git known as the "HEAD pointer". It shows you at which commit you are currently standing on (aka the current commit).
+
 Repository: A Git repository (often abbreviated as "repo") is a storage space where your project's files, along with their complete revision history, are kept. Each level provides you with the task to track changes of specific files which are presented in the lower-right file browser.
 
 Timelines: A timeline in Git refers to the chronological sequence of commits that represent the history of a repository. This timeline shows the evolution of the project, detailing what changes were made. Understanding the timeline helps developers track the progress of the project, understand its history, and collaborate more effectively. Timelines are visualized by yellow paths in the upper-left window. The yellow boxes (nodes) are representing individual commits and the arrows between the boxes (edges) are representing the parent-child relation-ship of each commit. Every commit, except the inital one, has a parent. The overall timeline includes the entire history of all changes and is in mathematical terms a directed acyclic graph (https://en.wikipedia.org/wiki/Directed_acyclic_graph).
@@ -92,17 +94,23 @@ Git has marked the conflicting text regions with "<<<<<<< HEAD", "=======", and 
 
 The Git index, or staging area, is a space where you can prepare changes before committing them. It allows you to build up a set of changes to commit in a single operation. In the game, you'll learn how to add changes to the index, review staged changes, and understand the role of the index in the commit process.
 
-In the level "Resetting files in the index" there are two files which where mistakenly added to the index. With the reset command these files can be again removed from the index, so that only the intented file will be commited. In the previous chapthers we added always all files with ``git add .`` to the index. But often only a sub-set of the modified files shall be commited which will be demonstrated in the level "Adding changes step by step". 
+In the level "Resetting files in the index" there are two files which where mistakenly added to the index. With the reset command these files can be again removed from the index, so that only the intented file will be commited. In the previous chapters we added always all files with ``git add .`` to the index. But often only a sub-set of the modified files shall be commited which will be demonstrated in the level "Adding changes step by step". 
 
 ! Shit-happens (Handling Mistakes)
 
 Everyone makes mistakes, and Git provides powerful tools to recover from them. In this chapter, you'll learn about commands like git revert, git reset, and git reflog to undo changes, reset your project to a previous state, and recover lost commits. Oh My Git! will guide you through these scenarios to build your confidence in handling mistakes.
 
-The "Friend" level is horizontally splitted into two areas. At the top you see the timeline from your firend and below is your timeline. Your current Head
+In the "Undo a bad commit" level the objective is to go back to the pervious commit and correct the last number within the numbers file. You can do this with the help of the 'git reset' command, press space and then right click on the previous command. Open the file numbers by left-clicking, do the correction and save the file. To complete the level add the file to the index and commit it.
+
+In the next level "I pushed something broken" the 'git revert' command is introduced. As opposed to 'git reset' which allows you to make corrections of changes that haven't been pushed to the remote and made publicly available, the 'git revert' command allows you to make a new commit which undos the changes which have been done in the specified commit. 
+The level is horizontally splitted into two areas. At the top you see the your teams remote branch and below is your branch. Type in 'git revert' space and then click on the previoius commit (The one with the commit message "very bad"). To complete the level publish the revert commit with the command 'git push'.
+
 
 ! Remotes
 
 Remote repositories are versions of your project hosted on the internet or an intranet. They enable collaboration by allowing multiple people to work on the same project. In Oh My Git!, you'll learn how to add remote repositories, fetch changes from remotes, and push your local commits to remote repositories.
+
+As with the previoius level the "Friend" level is also horizontally splitted into two areas. At the top you see the timeline from your firend and below is your timeline. Your firend's timeline is on commit of your time line. The get his changes type in the command `git pull'. Now add a third line to the essay, add it to the index and commit it and publish it to your friend with the command `git push`. Your're firend has added another line to the essay. To get it, type again `git pull`. To complete the level add a 5th line to the essay, commit it and push it to the remote.
 
 ! Publishing changes
 
