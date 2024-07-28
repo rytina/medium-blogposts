@@ -112,17 +112,15 @@ Remote repositories are versions of your project hosted on the internet or an in
 
 As with the previoius level the "Friend" level is also horizontally splitted into two areas. At the top you see the timeline from your firend and below is your timeline. Your firend's timeline is on commit of your time line. The get his changes type in the command `git pull'. Now add a third line to the essay, add it to the index and commit it and publish it to your friend with the command `git push`. Your're firend has added another line to the essay. To get it, type again `git pull`. To complete the level add a 5th line to the essay, commit it and push it to the remote.
 
-! Publishing changes
+! It's all about giving and helping others
 
-Once you've made your changes locally, you need to share them with others. This chapter covers how to publish your changes by pushing commits to remote repositories, creating pull requests for code review, and collaborating with your team. In Oh My Git!, you'll practice these steps to ensure your changes are integrated smoothly into the main project.
+When you dive into the world of Git the ultimate goal is to give something back to the community. And this is done through Git workflows and creating pull requests. This is demonstrated in the level "Cloning a repo". In this level your friend has a problem and you help him by cloning his repo, fix his problem and create a pull request for it. But what the heck is a pull request? A Pull Request (PR) is a way to tell others about changes you’ve pushed to a branch in a repository on GitHub. It is essentially a request to merge your changes from your branch into another branch (usually the main branch). 
 
-!! Pull Requests
-
-Pull requests are a feature provided by Git hosting services like GitHub, GitLab, and Bitbucket. They allow you to notify team members about changes you've made and request a review before merging your changes into the main branch. In this chapter, you'll learn how to create and manage pull requests, review others' changes, and participate in collaborative development.
+First you need to clone the repo of your firend. You can do this by dragging the lef-most card (git clone) and dropping it onto "friend". This will execute the command 'git clone ../friend .' Now open the file, complete the equation and save it. Add the file to the index and create a branch with 'git branch solution' (Instead of solution you can give it another name). Now commit your solution and make a pull request by typing the command 'git tag pr'.
 
 ! Tags
 
-Tags are used to mark specific points in your project's history as important. They are typically used for releases or significant milestones. In Oh My Git!, you'll practice creating and using tags to manage and reference specific versions of your project.
+Tags are used to mark specific points in your project's history as important. They are typically used for releases or significant milestones. In Oh My Git!, you'll practice creating and using tags to manage and reference specific versions of your project. In the previous level we already created a tag with the name "pr". In the level "Creating tags" you can repeat this again. The next level demonstrates how you can remove them again with the command `git tag -d <tag-name>`. The "Remote Tags" level teaches you how to publish tags to remotes. This can be done with the command `git push <remote> <tag-name>`.
 
 
 By integrating the Oh My Git! learning game into your Git journey, you can gain practical experience and confidence in using Git commands, setting the stage for effective collaboration, version control, and project management. Whether you're a developer, a project manager, or a curious learner, the game offers a playful and engaging way to dive into the world of Git and embrace the power of collaboration and iteration.
