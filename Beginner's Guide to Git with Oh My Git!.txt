@@ -20,7 +20,7 @@ Let's get started and take a look at each of these concepts in Oh My Git!
 
 Before diving into the Git concepts, let's take a look at the user interface of Oh My Git! Understanding the interface will help you navigate the game more effectively.
 
-https://img.itch.zone/aW1hZ2UvODA4ODEwLzUzMjgzMDMucG5n/original/VHUg%2By.png
+images/ui.png
 
 #### Game Environment
 
@@ -44,9 +44,9 @@ images/branch.png
 
 A Git merge is a fundamental operation in Git. When you perform a merge, you combine changes from different branches of a repository into a single branch. This process allows you to integrate the work done by different developers or in different branches into one cohesive project. Merge conflicts occur when Git cannot automatically reconcile the differences between branches. This usually happens when the same part of a file has been modified in different ways in the branches being merged. When merge conflicts occur, the affected files are clearly marked by a red frame.
 
-#### Command Line Interface
-
 images/merge_conflict.png
+
+#### Command Line Interface
 
 The command line interface (CLI) in Oh My Git! is crucial because it mirrors the real-world environment developers use for Git. By learning Git commands through the game's CLI, you build muscle memory and familiarity with the syntax and workflow you'll need in actual projects. This hands-on practice helps reinforce the concepts and commands, making it easier to transition from the game to real-life Git usage. You'll receive real-time feedback on your commands, helping you learn from any mistakes and understand the correct usage of Git commands. It also shows you the possible completions at the cursor position in a tooltip (command completion popup).
 
@@ -69,7 +69,6 @@ In the level "Creating Branches," you have two objectives. The first is to creat
 ### Can't See the Forest for the Trees
 
 You've now experienced how easy it is to create branches with Git. However, creating too many branches can quickly become messy, making it hard to find your important work in the jungle of branches. So, you should regularly weed out unnecessary branches.
-
 
 
 The command for deleting branches is `git branch -D`. You can practice how to better control the clutter with the "Deleting Branches" level.
