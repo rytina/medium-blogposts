@@ -2,7 +2,7 @@
 
 Why do we need such a thing?
 
-Short answer: It will democratize software development by intensively removing barriers with the help of AI agents.
+TL;DR - To make software development more accessible by relentlessly breaking down barriers with the assistance of AI agents.
 
 Over the last decades, barriers to software development have significantly diminished, thanks to advancements like higher-level programming languages and powerful development tools. Modern Integrated Development Environments (IDEs) come equipped with features such as auto-completion, syntax highlighting, code suggestions, linters and many more. These allow developers to focus on problem-solving rather than struggling with intricate language details.
 
