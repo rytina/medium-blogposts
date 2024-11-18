@@ -1,22 +1,22 @@
-**My First Experience with GitHub Copilot Workspace**
+# My First Experience with GitHub Copilot Workspace
 
-**Why do we need such a thing?**
+** Why Do We Need Such a Tool?**
 
 *TL;DR* - To make software development more accessible by relentlessly breaking down barriers with the assistance of AI agents.
 
 Over the last decades, barriers to software development have significantly diminished, thanks to advancements like higher-level programming languages and powerful development tools. Modern Integrated Development Environments (IDEs) come equipped with features such as auto-completion, syntax highlighting, code suggestions, linters, and many more. These allow developers to focus on problem-solving rather than struggling with intricate language details.
 
-The arrival of Generative AI has taken this accessibility to new heights by enabling the automatic generation of program code from natural language, opening up software development to an even broader audience. However, executing the code, testing it, and getting it reviewed through source code hosting platforms still require knowledge of how to set up a development environment, how to execute Git commands, and create a pull request, which remains a challenge for beginners. This is where [GitHub Copilot Workspace](https://gh.io/copilot-workspace) comes in, offering a streamlined solution by providing you with AI agents to brainstorm, generate code, create pull requests, and obtain terminal commands to build, test, and execute the software. With AI-native Cloud Development Environments like GitHub Copilot Workspace or [Replit](https://replit.com) — to name another one — you don't have to learn how to use a complex IDE anymore, since everything is provided to you in a modern web user interface.
+The arrival of Generative AI has taken accessibility to new heights by enabling automatic code generation from natural language, opening the doors of software development to a broader audience. However, executing code, testing it, and using source code hosting platforms still require setting up a development environment, understanding Git commands, and creating pull requests — challenges for beginners. Enter [GitHub Copilot Workspace](https://gh.io/copilot-workspace), a streamlined solution that uses AI agents to brainstorm, generate code, create pull requests, and even obtain terminal commands for building, testing, and executing software. AI-native Cloud Development Environments like GitHub Copilot Workspace and [Replit](https://replit.com) — to name another one — eliminate the need for complex IDE setups, offering everything through modern web interfaces.
 
-With GitHub Copilot Workspace, you don't even have to write code anymore; you simply start by formulating your feature request or bug for your favorite project in natural language with a GitHub issue. A GitHub issue serves as a specification for Copilot Workspace. You can brainstorm with the AI agents on how to solve your issue. It provides you with a summary which helps you understand the necessary file changes, and you can ask further questions to get a better understanding. It provides you with a couple of suggested questions which help you discover and learn about the repository and related topics. By getting a better understanding, you can step-by-step add more details to your issue. When you are satisfied with the outcome of your brainstorming session, you can generate a plan for the file changes which you can modify and then let Copilot Workspace implement it.
+With GitHub Copilot Workspace, coding is optional. You can start by describing a feature request or bug in natural language using a GitHub issue, which acts as the specification for Copilot Workspace. You can brainstorm solutions with AI agents, receive summaries of required file changes, and ask follow-up questions for clarity. Suggested questions help you explore repositories and related topics. Once satisfied with the brainstorming session, you can generate and modify a plan for file changes, which the Copilot Workspace can implement.
 
-This game-changer was first [announced](https://www.linkedin.com/posts/ashtom_github-copilot-workspace-welcome-to-the-activity-7190743877035700224-CRtx) by GitHub's CEO Thomas Dohmke in spring 2024 and was rapidly picked up by influencers like [Jeff Delaney](https://youtu.be/S_RorY_FRvo?si=3VbhcTu-zD3IjC_8) and [Rob Bos](https://youtu.be/N64ozm3x88k?si=OEqysoKwDSo59wJt). Half a year later, my excitement for Generative AI in IT hasn't waned. I've made it a habit to use various Copilots every day in both my professional and personal life to boost productivity and accelerate learning. At the GitHub Universe 2024 opening keynote, the passionate energy from [Orange Dynamite](https://youtu.be/dSf8QOjazrQ?t=1841) 🍊🧨 ignited my enthusiasm to dive right in. Luckily, [GitHub Next](https://githubnext.com) opened up the technical preview for a lot more people, and I received access too. In the following, I want to share my first experience with it.
+This game-changing tool was first [announced](https://www.linkedin.com/posts/ashtom_github-copilot-workspace-welcome-to-the-activity-7190743877035700224-CRtx) by GitHub CEO Thomas Dohmke in Spring 2024 and rapidly gained attention from influencers like [Jeff Delaney](https://youtu.be/S_RorY_FRvo?si=3VbhcTu-zD3IjC_8) and [Rob Bos](https://youtu.be/N64ozm3x88k?si=OEqysoKwDSo59wJt). Half a year later, my enthusiasm for Generative AI in IT remains strong. I’ve incorporated various Copilots into my daily routine, both professionally and personally, to boost productivity and accelerate learning. At the GitHub Universe 2024 opening keynote, the vibrant energy of [Orange Dynamite](https://youtu.be/dSf8QOjazrQ?t=1841) 🍊🧨 reignited my excitement. Fortunately, [GitHub Next](https://githubnext.com) expanded the technical preview, granting me access. Here’s my first experience with it.
 
-The issue I selected for experimentation is [Carz #48](https://github.com/A5H73Y/Carz/issues/48), which describes a bug for a Minecraft server plugin I already know from my Minecraft times. The first experience was a bit disappointing, since it ended in the error message "Unexpected error generating plan: Unexpected end of JSON input". Others already reported the same message in the [Discord channel](https://discord.com/channels/735557230698692749/1296372448018563145/1296372448018563145), and it got fixed quickly.
+The issue I chose to experiment with was [Carz #48](https://github.com/A5H73Y/Carz/issues/48), a bug affecting a Minecraft server plugin I remembered from my Minecraft days. My first interaction with Copilot Workspace ended with an error message: "Unexpected error generating plan: Unexpected end of JSON input." However, the issue was quickly resolved, as noted by others in the [Discord channel](https://discord.com/channels/735557230698692749/1296372448018563145/1296372448018563145).
 
-The Minecraft bug describes a scenario where cars can't climb out of tiny gaps. Opening the bug in the Copilot Workspace leads directly into a brainstorming session, where the current behavior and the proposed solution are described.
+The bug described cars failing to climb out of tiny gaps in certain block types. Opening the bug in Copilot Workspace launched a brainstorming session where the current behavior and proposed solutions were detailed.
 
-**What the AI found out about the current behavior:**
+## What the AI found out about the current behavior
 
 ```
 - No, cars cannot climb out of the tiny gaps in dirt path, soul sand, farmland, and honey blocks.
@@ -25,9 +25,11 @@ The Minecraft bug describes a scenario where cars can't climb out of tiny gaps. 
 - The current implementation does not account for the tiny gaps in dirt path, soul sand, farmland, and honey blocks, causing the car to get stuck.
 ```
 
-The block below and the block ahead are factors that decide if the car is able to climb out of tiny gaps. What's a bit confusing is that concrete blocks are mentioned. This is error-prone since listing the concrete blocks instead of focusing on their common attributes leads to missing out on other similar blocks or potential new blocks in Minecraft updates. It would be good to know what exactly makes them different from other blocks to cover more cases. Anyway, what does the AI propose as a solution?
+The AI identified that cars struggle with partial blocks because of missing height differentiation. While useful, its initial assessment of specific block types introduced risks of overlooking future updates or similar blocks.
 
-**AI's Proposed Solution:**
+---
+
+## AI's Proposed Solution
 
 ```
 - The `src/main/java/io/github/a5h73y/carz/listeners/VehicleListener.java` file handles the vehicle update event and checks if the car should start climbing.
@@ -64,9 +66,7 @@ Farmland: 0.0625 🌾
 Honey blocks: 0.0625 🍯
 ```
 
-In case you wonder, the emojis are from the experimental 'Use emoji in topic and explorations' feature, which you can enable in the top toolbar. The AI clarified the distinction between full and partial blocks by their height but made some mistakes for partial blocks.
-
-The correct values are (source: https://github.com/PrismarineJS/minecraft-data/blob/master/data/pc/1.15/blockCollisionShapes.json):
+In case you wonder, the emojis are from the experimental 'Use emoji in topic and explorations' feature, which you can enable in the top toolbar. The AI clarified the distinction between full and partial blocks by their height but made some mistakes for partial blocks. Using Minecraft’s [collision data](https://github.com/PrismarineJS/minecraft-data/blob/master/data/pc/1.15/blockCollisionShapes.json), I verified corrected heights:
 
 ```
 Soul sand: 0.875
@@ -75,10 +75,7 @@ Farmland: 0.9375
 Honey blocks: 0.9375
 ```
 
-To develop a more future-proof solution, I asked following:
-
-**How can partial blocks be handled in a generic way?**
-
+To develop a more future-proof solution, I asked "**How can partial blocks be handled in a generic way?**"
 
 Now it get's really interesting since, the brainstorming agent suggests three different approaches:
 
@@ -122,18 +119,18 @@ src/main/java/io/github/a5h73y/carz/listeners/VehicleListener.java
 
 Since I am looking for a dynamic solution without static block type checks, the third approach using the block data attributes stored in NBT ([Named Binary Tag](https://minecraft.fandom.com/wiki/NBT_format)) seems the most promising. Unfortunatelly the bounding box which is used for collision detection is not stored in NBT.
 
-After undersanding more about collission detection and block mechanics in Minecraft by trial and error, I finally found the [Bukkit API](https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/commits/d0d6ee2829d1d4000685dee2c56f88278571bbc8#src%2Fmain%2Fjava%2Forg%2Fbukkit%2FWorld.java?t=581) which guided me to ask the right instructions into the prompt:
+After undersanding more about collision detection and block mechanics in Minecraft by trial and error, I finally found the [Bukkit API](https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/commits/d0d6ee2829d1d4000685dee2c56f88278571bbc8#src%2Fmain%2Fjava%2Forg%2Fbukkit%2FWorld.java?t=581) which guided me to ask the right instructions into the prompt:
 
 - Use ray tracing (only for server versions >= v1.14; `PluginUtils.getMinorServerVersion()` >= 14) to calculate the fractional Y coordinate of the block below, then subtract it from 1 to determine the height of partial blocks as an alternative to the block type-based approach in `getBlockHeight`.
 - Update the `twoBlocksAhead` location's Y coordinate in `onVehicleUpdate` method to use the height of the block below the vehicle.
 
 Here you can see the solution which Copilot Workspace provided and it workes out of the box: https://copilot-workspace.githubnext.com/A5H73Y/Carz/issues/48?shareId=cb21d665-2e19-49b1-a179-4e98b04049d4
 
-When you open the link, you can build the Jar by clicking on the "Open commands" icon at the upper right toolbar and pressing the light bulb for the command you want to execute, as depicted below.
+When you open the link, you can build the plugin by clicking on the "Open commands" icon at the upper right toolbar and pressing the light bulb for the command you want to execute, as depicted below.
 
 ![Open Commands](images/open_commands.png)
 
-*The AI will generate the necessary command which can be executed in the underlying GitHub Codespace, automatically initiated by Copilot Workspace with the required build tools. There is no manual setup of a development environment anymore. Everything is accessible from Copilot Workspace through a web browser—even on a smartphone—eliminating the need for a local setup.*
+The AI will generate the necessary command which can be executed in the underlying GitHub Codespace, automatically initiated by Copilot Workspace with the required build tools. There is no manual setup of a development environment anymore. Everything is accessible from Copilot Workspace through a web browser — even on a smartphone — eliminating the need for a local setup.
 
 **Tips:**
 
@@ -146,4 +143,4 @@ When you open the link, you can build the Jar by clicking on the "Open commands"
 
 ---
 
-My first experience with GitHub Copilot Workspace was enlightening, offering a glimpse into the future of AI-native software development. It demonstrated how AI and human creativity can collaborate to tackle complex challenges. While the AI agents provided valuable insights and practical solutions, the initial proposal for my selected issue wasn't entirely robust against potential new blocks in Minecraft updates. Still, I'm excited to see how this technology evolves, empowering not just professional developers but anyone curious about software to achieve extraordinary things.
+My first experience with GitHub Copilot Workspace was enlightening. It showcased how AI and human creativity can combine to solve complex challenges. While not flawless, the AI provided valuable guidance, accelerating development and understanding. I'm excited to see how this technology evolves, empowering not just professional developers but anyone curious about software to achieve extraordinary things.
