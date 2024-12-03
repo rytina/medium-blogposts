@@ -99,54 +99,27 @@ In the level "Resetting Files in the Index," there are two files that were mista
 
 ### Stashing
 
-In the real world, there are moments when you are in the middle of making changes to your code but need to shift your focus temporarily to address something else. Git’s **stashing** feature allows you to "set aside" your current changes and return to them later. This can be especially helpful when you need to quickly switch branches or experiment without committing unfinished work.
+In software development, there are moments when you are in the middle of making changes to your code but need to temporarily shift focus to address something else. Git’s **stashing** feature allows you to "set aside" your current changes and return to them later. This can be especially helpful when you need to quickly switch branches or experiment without committing unfinished work.
 
-#### What is Stashing?
+Stashing is like placing the current state of your working directory and index (staged files) into a temporary holding area. This allows you to switch to another branch or work on a different task without losing or committing your current changes.
 
-Stashing is like placing your current working directory and index (staged files) into a temporary holding area. This allows you to switch to another branch or work on a different task without losing or committing the changes you were working on. 
+Stashes are stored in a [stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)), which means you can save multiple stashes and apply them in the order they were created. Each stash can be referred to using an identifier, such as `stash@{0}` (most recent) or `stash@{1}` (second most recent).
 
-Stashes are stored in a stack, which means you can save multiple stashes and apply them in the order they were created. Each stash can be referred to using an identifier, such as `stash@{0}` (most recent) or `stash@{1}` (second most recent).
-
-#### When to Use Stashing?
+#### When to Use Stashing
 
 - You are working on a feature and realize you need to fix a bug in another branch.
-- You want to test a different branch without committing incomplete changes.
-- You need to pull the latest changes from a remote repository but don’t want to merge your uncommitted work just yet.
+- You want to test or review a different branch without committing incomplete changes.
+- You need to pull the latest changes from a remote repository but don’t want to merge your uncommitted work yet.
 
-#### Stashing in Oh My Git!
+#### Stashing in *Oh My Git!*
 
-In Oh My Git!, you’ll encounter the concept of stashing in the level “Park Your Changes.” This level introduces the `git stash` command and shows how to stash and retrieve changes. 
+In *Oh My Git!*, you’ll encounter the concept of stashing in levels under the "stash" section. The first level introduces the `git stash push` command. In the context of stacks, **push** adds an item to the stack, while **pop** removes the topmost item. Think of it like a stack of plates: pushing adds a new plate to the top, while popping removes the top plate. In this level, you make changes to a file called `recipe` and need to temporarily set them aside. Typing `git stash push` accomplishes this and completes the level.
 
-To stash your changes:
-1. Make some modifications to the files in the game.
-2. Type `git stash` in the command line interface (CLI) or use the corresponding card.
-3. Your changes will disappear from the working directory, but don't worry—they're safe in the stash.
+In the next level, you’ll return to the previous changes using `git stash pop`. This command applies the most recent stash and removes it from the stack.
 
-To reapply stashed changes:
-1. Use `git stash apply` to bring back the most recent stash.
-2. Alternatively, if you want to pop the stash off the stack (apply and remove it), use `git stash pop`.
+Similar to Git branches, stashes can quickly become messy if too many are created. To keep things tidy, it’s best to discard stashes when they are no longer needed. Stashing is meant for temporary purposes; it should not be used as a substitute for committing changes. The "Clear the Stash" level will show you how to clean up stashes with the `git stash clear` and `git stash drop` commands.
 
-To view all stashes:
-- Use `git stash list` to see a list of all saved stashes.
-
-To drop a specific stash:
-- Use `git stash drop stash@{n}`, where `n` is the index of the stash you want to remove.
-
-#### Example Scenario: Fixing a Bug While Working on a Feature
-
-1. Suppose you're working on a feature and have made significant progress but haven't finished. 
-2. A teammate reports a critical bug in another branch.
-3. Instead of committing incomplete work, you stash your changes with `git stash`.
-4. Switch to the branch with the bug, fix it, and commit the changes.
-5. Return to your feature branch and restore your progress with `git stash pop`.
-
-#### Best Practices for Stashing
-
-- Add a descriptive message to your stashes using `git stash save "message"` to identify them easily later.
-- Keep your stash stack clean by dropping unnecessary stashes (`git stash drop`) to avoid confusion.
-- Use stashing for temporary purposes; don't rely on it as a substitute for committing changes.
-
-By practicing stashing in the game and understanding its real-world applications, you’ll gain confidence in managing unexpected changes in your workflow. Stashing empowers you to multitask efficiently without compromising your work-in-progress.
+The final levels teach you how to resolve common issues when working with stashes and provide opportunities to practice these skills further.
 
 ### Shit Happens (Handling Mistakes)
 
