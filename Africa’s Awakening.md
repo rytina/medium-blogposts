@@ -8,7 +8,7 @@ Africa is undergoing profound change. Long viewed mainly through the lens of cri
 
 ### 1. Growth: The Continent of the Future
 
-Africa today is home to seven of the world’s ten fastest-growing economies, including Niger, Senegal, Rwanda and Côte d’Ivoire. This growth is powered by a young, dynamic population—over 60 percent of Africans are under 25. Digitalisation and the rise of new consumer markets provide additional stimulus. Mobile internet use climbed from 28 percent in 2019 to 45 percent in 2024, showing how actively Africa is shaping its own future.
+Africa today is home to seven of the world’s ten fastest-growing economies, including Niger, Senegal, Rwanda and Côte d’Ivoire. This growth is powered by a young, dynamic population—over 60 percent of Africans are under 25. Digitalisation and the rise of new consumer markets provide additional stimulus. Mobile internet use in Africa climbed from around 28 percent in 2019 to approximately 38 percent in 2024, reflecting the continent’s steady progress in digital inclusion and its active role in shaping its future.
 
 The demographic momentum is striking: Africa’s median age is 19, compared with Europe’s 42. This youthful energy fuels labour-market dynamism, consumer spending, and a booming entrepreneurial climate. In Nigeria alone, more than 500,000 tech-savvy graduates enter the labour market each year, while Africa’s consumer expenditures reached US $2.1 trillion in 2024. The start-up scene is flourishing as well: 63 percent of the US $8.3 billion in tech funding went to founders under 35.
 
