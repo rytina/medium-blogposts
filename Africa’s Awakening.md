@@ -28,8 +28,6 @@ Start-up hubs such as Nairobi and Accra are booming. Initiatives like Bosch inno
 
 African economies are diversifying. The automotive industry is booming: South Africa remains the centre, Morocco is becoming an export platform to Europe, and Egypt, Kenya and Nigeria are expanding local assembly and production. Companies such as Bosch, Siemens, Volkswagen, Huawei and Stellantis are making targeted investments in local networks, automation, electromobility and smart manufacturing. For example, Volkswagen has a modern assembly plant in Rwanda, Huawei is supporting the expansion of 5G and digital education on the continent, and Siemens is involved in industrial automation and energy infrastructure in several African countries. These developments are helping to anchor technological expertise and industrial value creation on the continent in the long term.
 
-Translated with DeepL.com (free version)
-
 Governments are also ramping up modern infrastructure projects. Smart cities like Eko Atlantic in Nigeria and Egypt’s New Administrative Capital exemplify urban developments designed to strengthen domestic value chains and national control.
 
 ---
