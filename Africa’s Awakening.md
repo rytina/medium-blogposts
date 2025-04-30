@@ -1,5 +1,7 @@
 **Africa’s Awakening: Growth, Challenges, and New Opportunities in a Global Context**
 
+images/branch.png
+
 Africa is undergoing profound change. Long viewed mainly through the lens of crisis and poverty, the continent is increasingly perceived as a dynamic engine of growth, a technological driver, and an innovative actor in the global system. Yet this awakening is multi-layered: alongside impressive economic successes, serious structural deficits persist. This essay highlights the central aspects of this development across the themes of growth, digitalisation, industry, energy, culture, and structural challenges.
 
 ---
