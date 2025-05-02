@@ -50,6 +50,8 @@ Diasporas arise when people leave their homelands and form new communities elsew
 
 Another standout of Africa’s soft power is Nollywood, Nigeria’s film industry. Producing thousands of films per year, Nollywood is the world’s second-largest and shapes pop culture far beyond Africa—projecting African life, fostering identity and strengthening a new generation’s self-confidence.
 
+Traces of African culture can also be found in the global tech industry: the Linux distribution “Ubuntu”, one of the world's most widely used open source platforms, bears a term from South African philosophy. Ubuntu means “I am because we are” and emphasizes community, responsibility and mutual respect. The fact that an African concept has become a cornerstone of the global developer and innovation scene shows how deeply African cultural values can influence modern technologies.
+
 Carnival parades, film festivals and literary prizes signal a cultural renaissance. Such soft power influences political debates and social narratives worldwide—soft power being the ability to attract and persuade rather than coerce or pay.
 
 ---
