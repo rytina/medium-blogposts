@@ -44,7 +44,7 @@ At the same time, the continent is highly vulnerable to climate impacts such as 
 
 ### 5. Culture and Soft Power: Africa’s Global Voice
 
-Africa’s cultural presence is growing: music styles like Afrobeat, Highlife and Kizomba top international charts. Diaspora cultures—such as those in Brazil, where Congolese traditions have shaped Carnival—invigorate global debates on identity and justice.
+Africa’s cultural presence is growing: Afrobeats is topping global charts, Highlife’s rhythms are shaping modern pop, and the Kizomba dance and music scene is attracting an ever‑growing worldwide following. Diaspora cultures—such as those in Brazil, where Congolese traditions have shaped Carnival—invigorate global debates on identity and justice.
 
 Diasporas arise when people leave their homelands and form new communities elsewhere. They preserve their cultural roots while spreading African music, spirituality, art and social movements worldwide. Examples include the Afro-Brazilian martial art Capoeira and jazz, strongly influenced by West-African traditions.
 
