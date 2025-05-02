@@ -50,9 +50,11 @@ Diasporas arise when people leave their homelands and form new communities elsew
 
 Another standout of Africa’s soft power is Nollywood, Nigeria’s film industry. Producing thousands of films per year, Nollywood is the world’s second-largest and shapes pop culture far beyond Africa—projecting African life, fostering identity and strengthening a new generation’s self-confidence.
 
+Carnival parades, film festivals and literary prizes signal a cultural renaissance. Such soft power influences political debates and social narratives worldwide—soft power being the ability to attract and persuade rather than coerce or pay.
+
 Traces of African culture can also be found in the global tech industry: the Linux distribution “Ubuntu”, one of the world's most widely used open source platforms, bears a term from South African philosophy. Ubuntu means “I am because we are” and emphasizes community, responsibility and mutual respect. The fact that an African concept has become a cornerstone of the global developer and innovation scene shows how deeply African cultural values can influence modern technologies.
 
-Carnival parades, film festivals and literary prizes signal a cultural renaissance. Such soft power influences political debates and social narratives worldwide—soft power being the ability to attract and persuade rather than coerce or pay.
+The Ubuntu philosophy is also increasingly shaping the global corporate and leadership culture. In conjunction with Carol Dweck's concept of the growth mindset - the belief that skills grow through commitment and a willingness to learn - new forms of responsible and community-oriented leadership are emerging. Numerous education and leadership initiatives today combine both: the collaborative spirit of Ubuntu with Dweck's scientifically based motivation theory. These approaches emphasize the joy of learning, a willingness to make mistakes, respectful cooperation and growing together - values that are increasingly regarded as forward-looking both in African companies and internationally. Internationally known concepts such as the Arbinger Institute's “Outward Mindset”, which focuses on a change of perspective, empathy and responsibility, also show clear parallels to the Ubuntu mindset and are becoming increasingly important in the context of modern leadership.
 
 ---
 
