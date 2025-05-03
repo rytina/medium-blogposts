@@ -34,11 +34,15 @@ Governments are also ramping up modern infrastructure projects. Smart cities lik
 
 ---
 
-### 4. Renewable Energy and Climate Leadership
+### 4. Renewable Energy and Climate Sensitivity
 
-Africa is setting impressive benchmarks in energy. Morocco’s Noor Solar Complex—one of the world’s largest—symbolises the continent’s green-power ambitions. Morocco, Egypt and South Africa are investing heavily in solar, wind and hydro power, contributing to the global energy transition.
+Africa is setting impressive standards in the energy sector. The Noor Solar Complex in Morocco, one of the largest solar power plants in the world, symbolizes Africa's ambitions in the field of green energy. Egypt's Benban Solar Park (1.65 GW), Kenya's Garissa Solar Plant and South Africa's Jasper project are further flagship projects. Morocco, Egypt, South Africa and Kenya are investing heavily in solar, wind and hydropower, thereby contributing to the global energy transition.
 
-At the same time, the continent is highly vulnerable to climate impacts such as droughts, floods and crop failures—showing that progress and challenge often go hand in hand.
+The solar sector is developing particularly dynamically. According to the Global Solar Council, Africa's annual solar capacity is expected to increase by 42% in 2025¹ - a sharp rise after a period of delay. Around 23 GW of new solar capacity could be installed by 2028 - almost double the current total capacity. This requires improved financing and political framework conditions. However, only around 3% of global energy investment² and less than 2% of global investment in renewable energy currently comes from Africa - despite the fact that 60% of the world's best solar potential is located on the continent³.
+
+Kenya is particularly noteworthy: over 90% of electricity generation there already comes from renewable sources, including geothermal, hydropower, wind and, increasingly, solar⁴. Kenya is also one of the largest recipients of green investments on the continent - in 2023 alone, around 3.3 billion US dollars were invested in renewable energies². The country shows that an almost completely green power supply on African soil is not only possible, but can be a reality.
+
+At the same time, the continent remains highly vulnerable to climate impacts such as droughts, floods and crop failures. This shows that progress and challenges often go hand in hand. Without determined investment in infrastructure, power grids and financing instruments, the great potential is in danger of remaining untapped.
 
 ---
 
@@ -77,3 +81,14 @@ New challenges include: rural internet penetration is just 22 percent; brain dra
 Africa is no monolith but a continent of contrasts, opportunities and challenges. Its awakening is real—driven by a young, digital-savvy generation, the quest for economic sovereignty and the revival of cultural identity.
 
 Africa’s rise among the world’s fastest-growing economies is impressive and inspiring. But as voices like Fatima Maada Bio caution: true independence is not only political but economic. As long as outsiders control key resources, growth remains fragile. Peace and political stability are the indispensable foundations on which Africa’s future must be built. Africa is not only shaping its future—it is fighting for genuine sovereignty and shared prosperity.
+
+## References
+
+1. [Global Solar Council (2024): Africa's Solar Market Set to Surge 42% in 2025 – But Finance Bottlenecks Threaten Growth](https://www.globalsolarcouncil.org/news/global-solar-council-africas-solar-market-set-to-surge-42-in-2025-but-finance-bottlenecks-threaten-growth/)
+
+2. [REN21 (2023): Renewables 2023 Global Status Report.](https://www.ren21.net/gsr-2023/)
+
+3. [International Energy Agency (IEA): Africa Energy Outlook 2022.](https://www.iea.org/reports/africa-energy-outlook-2022)
+
+4. [U.S. Department of Commerce (2023): Kenya - Energy-Electrical Power Systems.](https://www.trade.gov/country-commercial-guides/kenya-energy-electrical-power-systems)
+
