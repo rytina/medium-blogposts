@@ -78,7 +78,7 @@ New challenges include: rural internet penetration is just 22 percent; brain dra
 
 ### Conclusion
 
-Africa is no monolith but a continent of contrasts, opportunities and challenges. Its awakening is real—driven by a young, digital-savvy generation, the quest for economic sovereignty and the revival of cultural identity.
+Africa is no monolith but a continent of contrasts, opportunities and challenges. Its awakening is real—driven by a young, digital-savvy generation, the quest for economic sovereignty and the revival of cultural identity. The renewable energy sector offers a pioneering example: with projects such as the Noor Solar Complex in Morocco or the Benban Park in Egypt, many countries are demonstrating that a green energy model can be realized on African soil. Countries such as Kenya, which already covers over 90% of its electricity from renewable sources, are leading the way. However, expansion depends crucially on fair financing, reliable infrastructure and political stability. 
 
 Africa’s rise among the world’s fastest-growing economies is impressive and inspiring. But as voices like Fatima Maada Bio caution: true independence is not only political but economic. As long as outsiders control key resources, growth remains fragile. Peace and political stability are the indispensable foundations on which Africa’s future must be built. Africa is not only shaping its future—it is fighting for genuine sovereignty and shared prosperity.
 
