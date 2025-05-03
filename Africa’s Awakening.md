@@ -66,7 +66,7 @@ The Ubuntu philosophy is also increasingly shaping the global corporate and lead
 
 Despite positive trends, Africa’s path is strewn with hurdles: weak governance, corruption, infrastructure gaps, social inequality and fragile institutions often impede sustainable development.
 
-A pressing issue is economic sovereignty. Sierra Leone’s First Lady, Fatima Maada Bio, notes that even in resource-rich nations, core sectors are foreign-controlled: “Every mining company in Sierra Leone today is owned by a foreigner—even our main dam is run by the British.” Attempts to reclaim resources are often thwarted by powerful international interests, fuelling political instability and limiting national agency.
+A pressing issue is economic sovereignty. Sierra Leone’s First Lady, Fatima Maada Bio, notes that even in resource-rich nations, core sectors are foreign-controlled: “Every mining company in Sierra Leone today is owned by a foreigner.” Attempts to reclaim resources are often thwarted by powerful international interests, fuelling political instability and limiting national agency.
 
 Bio stresses that without peace there can be no sustainable development. Ongoing conflicts in Sudan, insecurity in the Sahel and waves of violence in the DRC show how armed strife undermines economic growth and erases progress. Peace is thus not just a moral goal but a prerequisite for economic and social advancement.
 
