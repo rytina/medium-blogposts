@@ -31,7 +31,7 @@ Tech hubs in cities like Nairobi, Lagos, Accra, and Cairo are expanding, support
 
 Africa is shifting from raw-material exports to industrialisation and local value creation. Automotive production is growing rapidly: South Africa leads with over 600,000 vehicles produced annually, followed by Morocco with around 535,000. These countries serve export markets in Europe and beyond.
 
-Egypt, Kenya and Nigeria have smaller but developing automotive sectors. While Volkswagen operates a pilot assembly facility in Rwanda, its scale remains limited. Morocco, with free zones and deep-water ports like Tanger-Med, has positioned itself as a regional export platform, hosting plants from Renault-Nissan and Stellantis. BYD, the Chinese electric vehicle giant, has also entered the African market, exploring partnerships and sales networks in Morocco⁵ and Kenya⁶ as part of its global expansion strategy—although its production footprint remains in early stages. Huawei is supporting the expansion of 5G and digital education on the continent, and Siemens is involved in industrial automation and energy infrastructure in several African countries.
+Egypt, Kenya and Nigeria have smaller but developing automotive sectors. While Volkswagen operates a pilot assembly facility in Rwanda, its scale remains limited. Morocco, with free zones and deep-water ports like Tanger-Med, has positioned itself as a regional export platform, hosting plants from Renault-Nissan and Stellantis. BYD, the Chinese electric vehicle giant, has also entered the African market, exploring partnerships and sales networks in Morocco¹ and Kenya² as part of its global expansion strategy—although its production footprint remains in early stages. Huawei is supporting the expansion of 5G and digital education on the continent, and Siemens is involved in industrial automation and energy infrastructure in several African countries.
 
 Infrastructure projects are also on the rise. Smart cities such as Nigeria’s Eko Atlantic and Egypt’s New Administrative Capital symbolize broader ambitions to develop local supply chains and regional integration.
 
@@ -39,9 +39,9 @@ Infrastructure projects are also on the rise. Smart cities such as Nigeria’s E
 
 ### 4. Renewable Energy and Climate Vulnerability
 
-Africa is home to some of the world’s most promising renewable energy projects. Morocco’s Noor Ouarzazate Complex, one of the largest concentrated solar power (CSP) plants globally, and Egypt’s Benban Solar Park (1.65 GW) showcase the continent’s potential. Kenya, where over 90% of electricity is generated from renewables, leads in geothermal energy¹.
+Africa is home to some of the world’s most promising renewable energy projects. Morocco’s Noor Ouarzazate Complex, one of the largest concentrated solar power (CSP) plants globally, and Egypt’s Benban Solar Park (1.65 GW) showcase the continent’s potential. Kenya, where over 90% of electricity is generated from renewables, leads in geothermal energy³.
 
-Africa is estimated to hold 60% of the world’s best solar energy potential, according to the IEA². Yet the continent receives only about 3% of global energy investment³. Solar capacity is expected to grow by 42% in 2025⁴ alone, adding up to 23 GW by 2028.
+Africa is estimated to hold 60% of the world’s best solar energy potential, according to the IEA⁴. Yet the continent receives only about 3% of global energy investment⁵. Solar capacity is expected to grow by 42% in 2025⁶ alone, adding up to 23 GW by 2028.
 
 Despite this progress, climate vulnerability remains acute. Droughts, floods, and extreme weather events disproportionately impact African societies. Without improved infrastructure, grid development, and inclusive financing, much of this green potential may remain unrealized.
 
@@ -79,16 +79,16 @@ Projects like Kenya’s renewable grid or Morocco’s solar exports show that tr
 
 ## References
 
-1. [U.S. Department of Commerce (2023): Kenya - Energy-Electrical Power Systems.](https://www.trade.gov/country-commercial-guides/kenya-energy-electrical-power-systems)
+1. [BYD SEAGULL Debuts in Morocco, Redefining the Benchmark for Urban E-Mobility](https://www.byd.com/mea/news-list/byd-seagull-morocco-launch)
 
-2. [International Energy Agency (IEA): Africa Energy Outlook 2022.](https://www.iea.org/reports/africa-energy-outlook-2022)
+2. [BYD’s Strategic Foray into Kenya: Electrifying East Africa’s Automotive Market](https://www.reportlinker.com/article/8396)
 
-3. [REN21 (2023): Renewables 2023 Global Status Report.](https://www.ren21.net/gsr-2023/)
+3. [U.S. Department of Commerce (2023): Kenya - Energy-Electrical Power Systems.](https://www.trade.gov/country-commercial-guides/kenya-energy-electrical-power-systems)
 
-4. [Global Solar Council (2024): Africa's Solar Market Set to Surge 42% in 2025 – But Finance Bottlenecks Threaten Growth](https://www.globalsolarcouncil.org/news/global-solar-council-africas-solar-market-set-to-surge-42-in-2025-but-finance-bottlenecks-threaten-growth/)
+4. [International Energy Agency (IEA): Africa Energy Outlook 2022.](https://www.iea.org/reports/africa-energy-outlook-2022)
 
-5. [BYD SEAGULL Debuts in Morocco, Redefining the Benchmark for Urban E-Mobility](https://www.byd.com/mea/news-list/byd-seagull-morocco-launch)
+5. [REN21 (2023): Renewables 2023 Global Status Report.](https://www.ren21.net/gsr-2023/)
 
-6. [BYD’s Strategic Foray into Kenya: Electrifying East Africa’s Automotive Market](https://www.reportlinker.com/article/8396)
+6. [Global Solar Council (2024): Africa's Solar Market Set to Surge 42% in 2025 – But Finance Bottlenecks Threaten Growth](https://www.globalsolarcouncil.org/news/global-solar-council-africas-solar-market-set-to-surge-42-in-2025-but-finance-bottlenecks-threaten-growth/)
 
 Generated by ChatGPT (https://chatgpt.com/share/68175853-f988-8010-a6cb-3b21cd7bdb9f)
