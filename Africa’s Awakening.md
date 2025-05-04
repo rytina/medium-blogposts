@@ -49,7 +49,7 @@ Despite this progress, climate vulnerability remains acute. Droughts, floods, an
 
 ### 5. Culture and Influence: Africa’s Global Voice
 
-Africa’s cultural presence is growing. Afrobeats dominates global charts; Kizomba and Highlife influence global music and dance. The diaspora in Brazil, the Caribbean, and the U.S. continues to shape cultural movements, from Capoeira to jazz.
+Africa’s cultural presence is growing. Afrobeats increasingly tops global charts; Kizomba and Highlife influence global music and dance. The diaspora in Brazil, the Caribbean, and the U.S. continues to shape cultural movements, from Capoeira to jazz.
 
 Nollywood, Nigeria’s film industry, is among the world’s largest by number of productions. It tells African stories on African terms, building identity and exporting culture. Meanwhile, literature, fashion, and art are increasingly shaping global dialogues on equity, heritage, and aesthetics.
 
