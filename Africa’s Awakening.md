@@ -9,7 +9,7 @@ Africa is undergoing profound transformation. Once predominantly portrayed throu
 
 ### 1. Growth: The Continent of the Future
 
-As of 2024, up to seven of the world’s ten fastest-growing economies are in Africa—including Niger, Senegal, Rwanda, and Côte d’Ivoire—depending on the metrics used. This growth is supported by a vibrant, youthful population: more than 60% of Africans are under 25, and the median age is just 19, compared to 42 in Europe. This demographic energy fuels rising consumer demand, innovation, and entrepreneurship.
+As of 2024, up to seven of the world’s ten fastest-growing economies are in Africa—including Niger, Senegal, Rwanda, Benin, and Côte d’Ivoire—depending on the metrics used. This growth is supported by a vibrant, youthful population: more than 60% of Africans are under 25, and the median age is just 19, compared to 42 in Europe. This demographic energy fuels rising consumer demand, innovation, and entrepreneurship.
 
 Nigeria, for instance, sees over 500,000 tech-educated graduates enter the labour market each year. Africa’s consumer expenditure has reached approximately US $2.1 trillion, and the start-up scene is thriving—about 63% of tech funding on the continent is directed toward founders under 35.
 
