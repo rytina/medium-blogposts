@@ -4,6 +4,20 @@
 
 *TL;DR* - To make software development more accessible by relentlessly breaking down barriers with the assistance of AI agents.
 
+Of course! Here’s your note on the discontinuation of GitHub Copilot Workspace, including the table and expanded explanation, inserted directly after the TL;DR in English:
+
+⸻
+
+My First Experience with GitHub Copilot Workspace
+
+Why Do We Need Such a Tool?
+
+TL;DR – To make software development more accessible by relentlessly breaking down barriers with the assistance of AI agents.
+
+⸻
+
+Notice: GitHub discontinued Copilot Workspace on May 30, 2025, ending it as a pure research preview. The lessons learned are now being integrated into the “real” Copilot products (Edit/Agent Mode in VS Code and the new Copilot Coding Agent). The following is my experience report with Copilot Workspace prior to its discontinuation.
+
 Over the last decades, barriers to software development have significantly diminished, thanks to advancements like higher-level programming languages and powerful development tools. Modern Integrated Development Environments (IDEs) come equipped with features such as auto-completion, syntax highlighting, code suggestions, linters, and many more. These allow developers to focus on problem-solving rather than struggling with intricate language details.
 
 The arrival of Generative AI has taken accessibility to new heights by enabling automatic code generation from natural language, opening the doors of software development to a broader audience. However, executing code, testing it, and using source code hosting platforms still require setting up a development environment, understanding Git commands, and creating pull requests — challenges for beginners. Enter [GitHub Copilot Workspace](https://gh.io/copilot-workspace), a streamlined solution that uses AI agents to brainstorm, generate code, create pull requests, and even obtain terminal commands for building, testing, and executing software. AI-native Cloud Development Environments like GitHub Copilot Workspace and [Replit](https://replit.com) — to name another one — eliminate the need for complex IDE setups, offering everything through modern web interfaces.
