@@ -4,7 +4,7 @@
 
 *TL;DR* - To make software development more accessible by relentlessly breaking down barriers with the assistance of AI agents.
 
-Notice: GitHub discontinued Copilot Workspace on May 30, 2025, ending it as a pure research preview. The lessons learned are now being integrated into the “real” Copilot products (Edit/Agent Mode in VS Code and the new Copilot Coding Agent). The following is my experience report with Copilot Workspace prior to its discontinuation.
+Notice: GitHub [discontinued Copilot Workspace on May 30, 2025](https://gist.github.com/idan/15f101b8ff4be8bebe17147c08995363), ending it as a pure research preview. The lessons learned are now being integrated into the “real” Copilot products (Edit/Agent Mode in VS Code and the new Copilot Coding Agent). The following is my experience report with Copilot Workspace prior to its discontinuation.
 
 Over the last decades, barriers to software development have significantly diminished, thanks to advancements like higher-level programming languages and powerful development tools. Modern Integrated Development Environments (IDEs) come equipped with features such as auto-completion, syntax highlighting, code suggestions, linters, and many more. These allow developers to focus on problem-solving rather than struggling with intricate language details.
 
@@ -126,9 +126,7 @@ After undersanding more about collision detection and block mechanics in Minecra
 - Use ray tracing (only for server versions >= v1.14; `PluginUtils.getMinorServerVersion()` >= 14) to calculate the fractional Y coordinate of the block below, then subtract it from 1 to determine the height of partial blocks as an alternative to the block type-based approach in `getBlockHeight`.
 - Update the `twoBlocksAhead` location's Y coordinate in `onVehicleUpdate` method to use the height of the block below the vehicle.
 
-Here you can see the solution which Copilot Workspace provided and it workes out of the box: https://copilot-workspace.githubnext.com/A5H73Y/Carz/issues/48?shareId=cb21d665-2e19-49b1-a179-4e98b04049d4
-
-When you open the link, you can build the plugin by clicking on the "Open commands" icon at the upper right toolbar and pressing the light bulb for the command you want to execute, as depicted below.
+To build the plugin, you can obtain the specific command by clicking the “Commands” icon in the upper right toolbar and then pressing the light bulb, as shown below.
 
 ![Open Commands](images/open_commands.png)
 
@@ -146,3 +144,5 @@ The AI will generate the necessary command which can be executed in the underlyi
 ---
 
 My first experience with GitHub Copilot Workspace was enlightening. It showcased how AI and human creativity can combine to solve complex challenges. While not flawless, the AI provided valuable guidance, accelerating development and understanding. I'm excited to see how this technology evolves, empowering not just professional developers but anyone curious about software to achieve extraordinary things.
+
+With Copilot Workspace now discontinued, it’s clear that its true legacy lies in the lessons learned and the innovations it inspired. The research preview may have ended, but its spirit lives on in the new generation of Copilot products — like Agent Mode and the [Copilot Coding Agent](https://github.blog/news-insights/product-news/github-copilot-meet-the-new-coding-agent/) — where the same ideas are now integrated in even more powerful, seamless ways.
