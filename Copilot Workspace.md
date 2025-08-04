@@ -4,18 +4,6 @@
 
 *TL;DR* - To make software development more accessible by relentlessly breaking down barriers with the assistance of AI agents.
 
-Of course! Here’s your note on the discontinuation of GitHub Copilot Workspace, including the table and expanded explanation, inserted directly after the TL;DR in English:
-
-⸻
-
-My First Experience with GitHub Copilot Workspace
-
-Why Do We Need Such a Tool?
-
-TL;DR – To make software development more accessible by relentlessly breaking down barriers with the assistance of AI agents.
-
-⸻
-
 Notice: GitHub discontinued Copilot Workspace on May 30, 2025, ending it as a pure research preview. The lessons learned are now being integrated into the “real” Copilot products (Edit/Agent Mode in VS Code and the new Copilot Coding Agent). The following is my experience report with Copilot Workspace prior to its discontinuation.
 
 Over the last decades, barriers to software development have significantly diminished, thanks to advancements like higher-level programming languages and powerful development tools. Modern Integrated Development Environments (IDEs) come equipped with features such as auto-completion, syntax highlighting, code suggestions, linters, and many more. These allow developers to focus on problem-solving rather than struggling with intricate language details.
