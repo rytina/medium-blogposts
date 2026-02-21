@@ -45,7 +45,7 @@ Infrastructure projects are also on the rise. Smart cities such as Nigeria's Eko
 
 Africa is home to some of the world's most promising renewable energy projects. Morocco's Noor Ouarzazate Complex, one of the largest concentrated solar power (CSP) plants globally, and Egypt's Benban Solar Park (1.65 GW) showcase the continent's potential. Kenya, where over 90% of electricity is generated from renewables, leads in geothermal energy [2].
 
-Africa is estimated to hold 60% of the world's best solar energy potential, according to the IEA [3]. Yet the continent receives only about 3% of global energy investment [4]. Solar capacity is expected to grow by 42% in 2025 [5] alone, adding up to 23 GW by 2028.
+Africa holds 60% of the world’s best solar energy potential, according to the IEA [3]. Yet the continent still receives only about 3% of global energy investment, despite clean energy spending hitting a record $40 billion in 2024. Solar capacity surged by 54% in 2025 — adding 4.5 GW in a single year — and the continent is now on track to add a further 23 GW by 2028 [4].
 
 A new dynamic is emerging: the African Green Hydrogen Alliance (AGHA) and large national packages — notably Morocco's approved ~$32.5 billion "Offre Maroc" hydrogen investment — are likely to push the continent's share of global energy investment above the current ~3%.
 
