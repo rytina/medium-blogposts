@@ -32,10 +32,8 @@ Tech hubs in cities like Nairobi, Lagos, Accra, and Cairo are expanding, support
 Africa is shifting from raw-material exports to industrialisation and local value creation. 
 Automotive production is undergoing a historic transformation: **Morocco has emerged as Africa's 
 leading automotive producer**, with production exceeding **1 million vehicles in 2025** — a dramatic 
-leap from ~560,000 in 2024 (+78% growth). South Africa, once the undisputed leader with ~632,000 
-vehicles annually, has stagnated to ~597,000 in 2025.
-
-Africa is shifting from raw-material exports to industrialisation and local value creation. Automotive production is growing rapidly: Morocco has emerged as the leading automotive producer on the continent with around 535,000 vehicles produced annually, recently surpassing South Africa in terms of growth trajectory and export competitiveness. Morocco's strategic positioning near the EU, combined with deep-water ports like Tanger-Med and competitive manufacturing costs, has made it an increasingly attractive production hub for European OEMs. These countries serve export markets in Europe and beyond.
+leap from ~560,000 in 2024 (approx. +78% growth). South Africa, once the undisputed leader with ~600,000 
+vehicles annually, has stagnated in 2025 (apporx. -0.5% growth). Morocco's strategic positioning near the EU, combined with deep-water ports like Tanger-Med and competitive manufacturing costs, has made it an increasingly attractive production hub for European OEMs. These countries serve export markets in Europe and beyond.
 
 Egypt, Kenya and Nigeria have smaller but developing automotive sectors. While Volkswagen operates a pilot assembly facility in Rwanda, its scale remains limited. Morocco, with free zones and deep-water ports like Tanger-Med, has positioned itself as a regional export platform, hosting plants from Renault-Nissan and Stellantis. BYD, the Chinese electric vehicle giant, has also entered the African market, exploring partnerships and sales networks in Morocco, Kenya, South Africa and Rwanda as part of its global expansion strategy — although its production footprint remains in early stages. Huawei is supporting the expansion of 5G and digital education on the continent, and Siemens is involved in industrial automation and energy infrastructure in several African countries.
 
