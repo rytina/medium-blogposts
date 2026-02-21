@@ -41,6 +41,8 @@ Africa is home to some of the world's most promising renewable energy projects. 
 
 Africa is estimated to hold 60% of the world's best solar energy potential, according to the IEA [3]. Yet the continent receives only about 3% of global energy investment [4]. Solar capacity is expected to grow by 42% in 2025 [5] alone, adding up to 23 GW by 2028.
 
+A new dynamic is emerging: the African Green Hydrogen Alliance (AGHA) and large national packages — notably Morocco's approved ~$32.5 billion "Offre Maroc" hydrogen investment — are likely to push the continent's share of global energy investment above the current ~3%.
+
 Despite this progress, climate vulnerability remains acute. Droughts, floods, and extreme weather events disproportionately impact African societies. Without improved infrastructure, grid development, and inclusive financing, much of this green potential may remain unrealized.
 
 ### 5. Culture and Influence: Africa's Global Voice
