@@ -25,7 +25,7 @@ Developer talent is surging too: GitHub notes that "In addition to India, Brazil
 
 Africa's internet economy is valued at around US $180 billion in 2024, with growth rates nearly double the global average. The fintech sector leads this charge — mobile money transactions surpassed US $1.6 trillion in 2024. Kenya's M-Pesa and similar platforms have become cornerstones of financial inclusion.
 
-Tech hubs in cities like Nairobi, Lagos, Accra, and Cairo are expanding, supported by global companies. Google's "Startups Accelerator Africa", Microsoft's development centers in Nairobi and Lagos, and Amazon Web Services' infrastructure in South Africa reflect rising investor confidence. Bosch, too, operates innovation centers and IoT initiatives in Kenya and South Africa, fostering locally adapted technology solutions.
+Tech hubs in cities like Nairobi, Lagos, Accra, and Cairo are expanding, supported by global companies. Google's "Startups Accelerator Africa", Microsoft's development centers in Nairobi and Lagos, and Amazon Web Services' infrastructure in South Africa reflect rising investor confidence. Bosch, too, operates innovation centers and IoT initiatives in Kenya and South Africa, and manufacturing facilities in Egypt through BSH (Bosch and Siemens Home Appliances), fostering locally adapted technology solutions.
 
 ### 3. Industry and Infrastructure: From Raw-Material Exports to Value Creation
 
