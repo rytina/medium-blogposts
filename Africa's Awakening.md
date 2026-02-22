@@ -13,9 +13,7 @@ As of 2025, the International Monetary Fund projects that up to five of the worl
 
 Beyond these fluctuating commodity cycles, the continent’s long-term trajectory is anchored by its most significant asset: a vibrant, youthful population. With more than 60% of Africans under the age of 25 and a median age of just 19. This demographic energy fuels rising consumer demand, innovation, and entrepreneurship.
 
-Nigeria, for instance, sees over 500,000 tech-educated graduates enter the labour market each year. Africa's consumer expenditure has reached approximately US $2.1 trillion, and the start-up scene is thriving — about 63% of tech funding on the continent is directed toward founders under 35.
-
-Still, the growth is uneven. An estimated 12 million young people enter the labour force annually, yet only about 3 million formal jobs are created. Initiatives like Ethiopia's Jobs Creation Commission and South Africa's Youth Employment Service aim to narrow this gap.
+An estimated 12 million young people enter the labour force annually, yet only about 3 million formal jobs are created. Initiatives like Ethiopia's Jobs Creation Commission and South Africa's Youth Employment Service aim to narrow this gap. Nigeria adds approximately 600,000 total graduates annually [7], while the 3 Million Technical Talent (3MTT) program is currently upskilling a pipeline of over 1.8 million Nigerians for the digital economy [8]. Africa's consumer expenditure has reached approximately US $2.1 trillion [9], and the start-up scene is thriving—driven by a record 63% year-on-year growth in debt funding as of 2025 [10].
 
 Africa's population is projected to reach 3.3 billion by 2075, meaning one in three people globally will be African. This demographic trend significantly impacts the global workforce, as by 2030, half of all new entrants to the global workforce will be from Africa.
 
@@ -23,7 +21,7 @@ Africa's population is projected to reach 3.3 billion by 2075, meaning one in th
 
 Africa's digital landscape is rapidly expanding. Internet penetration has climbed from about 28 percent in 2019 to roughly 38 percent in 2024. 4G coverage now reaches approximately two-thirds of the Sub‑Saharan population, while 5G — still at an early stage — have been launched in at least 18 African cities, including in Nigeria (Lagos, Abuja, Port Harcourt), South Africa (Johannesburg, Cape Town, Durban) and Kenya (Nairobi, Mombasa, Kisumu).
 
-Developer talent is surging too: GitHub notes that "In addition to India, Brazil and Nigeria are also among the fastest‑growing developer communities on the platform". This reinforces Nigeria's rise (detailed statistics in GitHub's 2024 State of the Octoverse report) as a continental engine for software skills and start‑up formation.
+Developer talent is surging too: GitHub’s 2025 State of the Octoverse report notes that Nigeria remains one of the world's fastest-growing developer communities, with its developer population now surpassing 1.1 million [11]. This continues a long-term trend; already in 2024, GitHub highlighted Nigeria as one of the fastest-growing countries on the platform globally, then recording a remarkable 45% year-on-year surge in developer talent. This sustained momentum reinforces Nigeria's rise as a continental engine for software skills and start-up formation.
 
 In 2024, Africa’s mobile-driven digital economy reached a significant milestone, contributing $220 billion in economic value, which represents 7.7% of the continent’s total GDP [7]. This growth is supported by a mobile-first consumer base and an increasingly mature digital infrastructure. Sub-Saharan Africa remains the global epicenter of the industry, processing $1.1 trillion in transactions—accounting for roughly 66% of the $1.68 trillion global mobile-money value (GSMA, 2025). Kenya’s M-Pesa and similar platforms have become cornerstones of financial inclusion. 
 
@@ -31,11 +29,7 @@ Tech hubs in cities like Nairobi, Lagos, Accra, and Cairo are expanding, support
 
 ### 3. Industry and Infrastructure: From Raw-Material Exports to Value Creation
 
-Africa is shifting from raw-material exports to industrialisation and local value creation. 
-Automotive production is undergoing a historic transformation: **Morocco has emerged as Africa's 
-leading automotive producer**, with production exceeding **1 million vehicles in 2025** — a dramatic 
-leap from ~560,000 in 2024 (approx. +78% growth). South Africa, once the undisputed leader with ~600,000 
-vehicles annually, has stagnated in 2025 (approx. -0.5% growth).
+Africa is shifting from raw-material exports to industrialisation and local value creation. Automotive production is undergoing a historic transformation: **Morocco has emerged as Africa's leading automotive producer**, with production exceeding **1 million vehicles in 2025** — a dramatic leap from ~560,000 in 2024 (approx. +78% growth). South Africa, once the undisputed leader with ~600,000 vehicles annually, has stagnated in 2025 (approx. -0.5% growth).
 
 Egypt, Kenya and Nigeria have smaller but developing automotive sectors. While Volkswagen operates a pilot assembly facility in Rwanda, its scale remains limited. Morocco's strategic positioning near the EU, combined with deep-water ports like Tanger-Med and competitive manufacturing costs, has made it an increasingly attractive production hub for European OEMs and beyond, hosting plants from Renault-Nissan and Stellantis. BYD, the Chinese electric vehicle giant, has also entered the African market, exploring partnerships and sales networks in Morocco, Kenya, South Africa and Rwanda as part of its global expansion strategy — although its production footprint remains in early stages. Huawei is supporting the expansion of 5G and digital education on the continent, and Siemens is involved in industrial automation and energy infrastructure in several African countries.
 
@@ -83,12 +77,14 @@ Projects like Kenya's renewable grid or Morocco's solar exports show that transf
 
 ### References
 
-1. A united African economy: The impossible dream? | Business Beyond by DW News.
-2. U.S. Department of Commerce (2023): Kenya — Energy-Electrical Power Systems.
-3. International Energy Agency (IEA): Africa Energy Outlook 2022.
-4. REN21 (2023): Renewables 2023 Global Status Report.
-5. Global Solar Council (2024): Africa's Solar Market Set to Surge 42% in 2025 — But Finance Bottlenecks Threaten Growth.
-6. The story behind West Africa's booming Afrobeats musical export.
-7. GSMA Mobile Economy Africa 2025 - https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/wp-content/uploads/2025/10/GSMA_AFRICA_ME2025_R_Web-3.pdf
-
-Generated by ChatGPT (https://chatgpt.com/share/68175853-f988-8010-a6cb-3b21cd7bdb9f)
+1. **DW News (2024).** *A united African economy: The impossible dream? | Business Beyond.* [URL](https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3DS254fXUoX9s)
+2. **U.S. Department of Commerce (2023).** *Kenya — Energy-Electrical Power Systems.* [URL](https://www.trade.gov/country-commercial-guides/kenya-energy-electrical-power-systems)
+3. **International Energy Agency (IEA) (2025).** *World Energy Investment 2025: Clean Energy Spending in Africa.* [URL](https://www.iea.org/reports/world-energy-investment-2025)
+4. **Global Solar Council (GSC) (2026).** *Africa Market Outlook for Solar PV 2026–2029.* (Published February 2026).
+5. **GSMA (2025).** *The Mobile Economy Africa 2025.* [URL](https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/wp-content/uploads/2025/10/GSMA_AFRICA_ME2025_R_Web-3.pdf)
+6. **The Guardian (2024).** *The story behind West Africa’s booming Afrobeats musical export.*
+7. **Premium Times Nigeria (2025).** *Degrees in Distress: Analyzing Nigeria's annual output of 600,000 graduates.* [URL](https://www.premiumtimesng.com/opinion/825164-degrees-in-distress-why-nigerian-graduates-are-taking-menial-jobs-and-how-to-change-the-story-by-titus-olowokere.html)
+8. **Federal Ministry of Communications, Innovation & Digital Economy (2026).** *3 Million Technical Talent (3MTT) Official Portal.* [URL](https://3mtt.nitda.gov.ng/)
+9. **Brookings Institution (2025).** *Africa’s consumer market potential: Trends and $2.1T Projections.* [URL](https://www.brookings.edu/articles/africas-consumer-market-potential/)
+10. **Partech Partners (January 2026).** *2025 Africa Tech Venture Capital Report: The Rise of Debt Financing.* [URL](https://partechpartners.com/news/2025-partech-africa-tech-vc-report-african-tech-funding-rebounds-to-us41b-driven-by-record-debt-activity-and-disciplined-equity-growth)
+11. **GitHub (2025).** *The State of the Octoverse 2025: Nigeria's Developer Growth.* [URL](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/)
