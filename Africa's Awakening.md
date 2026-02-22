@@ -19,7 +19,7 @@ Africa's population is projected to reach 3.3 billion by 2075, meaning one in th
 
 ### 2. Digitalisation as a Key Factor
 
-Africa's digital landscape is rapidly expanding. Internet penetration has climbed from about 28 percent in 2019 to roughly 38 percent in 2024. 4G coverage now reaches approximately two-thirds of the Sub‑Saharan population, while 5G — still at an early stage — have been launched in at least 18 African cities, including in Nigeria (Lagos, Abuja, Port Harcourt), South Africa (Johannesburg, Cape Town, Durban) and Kenya (Nairobi, Mombasa, Kisumu).
+Africa’s digital landscape is rapidly expanding. Internet penetration has climbed from about 28 percent in 2019 to roughly 42 percent in 2026. 4G coverage now reaches roughly two-thirds of Africa’s population, while 5G — still at an early stage — has been launched in about 28 African countries.
 
 Nigeria’s developer talent is experiencing sustained, multi-year momentum. According to GitHub’s 2023 State of the Octoverse report, the country recorded a remarkable 45% year-on-year surge in talent. This growth continued into the 2024 report, which confirmed that Nigeria’s developer population had officially surpassed 1.1 million, making it the largest community in Africa. Most recently, the 2025 report identifies Nigeria—alongside Turkey and Egypt—as a primary driver for the 3.4 million new developers added across the Africa and Middle East region over the past year [11]. Nigeria is estimated to have around 1.45 to 1.6 million GitHub users in early 2026, while Egypt is estimated to have around 1.2 to 1.35 million.
 
