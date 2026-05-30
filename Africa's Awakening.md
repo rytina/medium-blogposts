@@ -51,7 +51,7 @@ Africa's cultural presence is growing. Afrobeats increasingly tops global charts
 
 Nollywood, Nigeria's film industry, is among the world's largest by number of productions. It tells African stories on African terms, building identity and exporting culture. Meanwhile, literature, fashion, and art are increasingly shaping global dialogues on equity, heritage, and aesthetics.
 
-A fascinating symbolic bridge between African tradition and modern global technology is the famous Linux distribution "Ubuntu". Named by its South African founder "Mark Shuttleworth" after the Southern African philosophy meaning "I am because we are", the operating system champions community-driven open-source collaboration.
+A fascinating symbolic bridge between African tradition and modern global technology is the famous Linux distribution "Ubuntu". Named by its South African founder, Mark Shuttleworth, after the Southern African philosophy meaning "I am because we are", the operating system champions community-driven open-source collaboration.
 
 While the software itself is technically standard code, the underlying philosophy of Ubuntu increasingly resonates in modern global leadership models. This African ethos of interconnectedness and shared progress beautifully mirrors contemporary concepts like Carol Dweck's "growth mindset" or the Arbinger Institute's "Outward Mindset"—proving that Africa's cultural heritage offers valuable blueprints for collaborative global innovation.
 
