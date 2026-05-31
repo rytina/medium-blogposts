@@ -63,7 +63,7 @@ Conflict remains a major impediment. Insecurity in the Sahel, civil strife in Su
 
 In addition to conflict, many African economies also suffer from vulnerability due to heavy reliance on commodity exports, making them susceptible to global price fluctuations. Furthermore, development is consistently impeded by infrastructure deficits, notably the lack of widespread access to reliable electricity and adequate roads, which are fundamental for economic progress.
 
-Efforts at reform are underway. Tanzania is renegotiating with mining firms; Ghana's national digital ID system, and Nigeria's push for smart cities and manufacturing reflect a desire for greater economic sovereignty.
+Efforts at reform are underway. Tanzania is enforcing a strict revenue-sharing model with international mining firms and has heavily tightened its Local Content Regulations to ensure substantive ownership and local value creation; Ghana's national digital ID system, and Nigeria's push for smart cities and manufacturing reflect a desire for greater economic sovereignty.
 
 Still, challenges persist: rural internet penetration is only about 22%; around 38% of Africa's highly skilled STEM graduates emigrate (though this figure varies by country and needs better tracking); and attracting investment without compromising sovereignty remains a balancing act.
 
