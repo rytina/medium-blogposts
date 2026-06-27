@@ -14,7 +14,7 @@ Looking back at 2025, data from the International Monetary Fund indicates that A
 While South Sudan — originally expected to lead global rankings — faced a severe economic contraction due to the Sudan oil pipeline crisis, agile mid-tier reformers stepped into the vanguard. According to the IMF’s April 2026 data, the continent’s strongest real GDP growth performers included:
 
 * **Libya** (15.9%) — Reflecting a major recovery in oil production and stabilized exports.
-* **Ethiopia** (9.2%), Rwanda (7.0%), and Uganda (6.7%) — Supported by sustained structural reforms, improving macroeconomic management, and continued investment in infrastructure and productive capacity.
+* **Ethiopia** (9.2%), Rwanda (7.0%), and Uganda (6.7%) — Representing East Africa’s reform-led vanguard, where growth is anchored in sweeping structural market overhauls, regional trade integration, and heavy corridor infrastructure investments.
 * **Guinea** (6.7%) — Maintaining strong momentum through baseline infrastructure development ahead of massive, imminent mining exports from the Simandou iron ore project.
 * **Côte d’Ivoire** (6.5%) — Driven by high international cocoa values boosting rural incomes, expanding tertiary services, and strong private investment.
 * **Benin** (6.2%) — Propelled by sustained public works, port modernization, and the scaling of the export-oriented Glo-Djigbé Industrial Zone.
