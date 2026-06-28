@@ -95,7 +95,7 @@ Projects like Kenya's renewable grid or Morocco's solar exports show that transf
 6. **The Guardian (2024).** *The story behind West Africa’s booming Afrobeats musical export.*
 7. **Premium Times Nigeria (2025).** *Degrees in Distress: Analyzing Nigeria's annual output of 600,000 graduates.* [URL](https://www.premiumtimesng.com/opinion/825164-degrees-in-distress-why-nigerian-graduates-are-taking-menial-jobs-and-how-to-change-the-story-by-titus-olowokere.html)
 8. **Federal Ministry of Communications, Innovation & Digital Economy (2026).** *3 Million Technical Talent (3MTT) Official Portal.* [URL](https://3mtt.nitda.gov.ng/)
-9. **Brookings Institution (2025).** *Africa’s consumer market potential: Trends and $2.1T Projections.* [URL](https://www.brookings.edu/articles/africas-consumer-market-potential/)
+9. **Brookings Institution. (2018).** Africa’s consumer market potential: Trends, drivers, and market opportunities. [URL](https://www.brookings.edu/articles/africas-consumer-market-potential/)
 10. **Partech Partners (January 2026).** *2025 Africa Tech Venture Capital Report: The Rise of Debt Financing.* [URL](https://partechpartners.com/news/2025-partech-africa-tech-vc-report-african-tech-funding-rebounds-to-us41b-driven-by-record-debt-activity-and-disciplined-equity-growth)
 11. **GitHub (2025).** *The State of the Octoverse 2025: Nigeria's Developer Growth.* [URL](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/)
 12. **International Monetary Fund (April 2026).** [World Economic Outlook, Global Economy in the Shadow of War. p. 124-125](https://www.imf.org/-/media/files/publications/weo/2026/april/english/text.pdf)
